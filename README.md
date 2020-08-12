@@ -1,2 +1,2 @@
 # CiteExplainer
-Citation graph and citation contextual text datasets for text-enhanced link prediction and graph-enhanced text generation.
+Citation graph and contextual text (CGCT) datasets for text-enhanced link prediction and graph-enhanced text generation.

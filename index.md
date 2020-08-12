@@ -1,4 +1,16 @@
-## Welcome to GitHub Pages (Main Contributors: Mengxia Yu, Wenhao Yu, and Meng Jiang)
+## CGCT Datasets
+Main Contributors: Mengxia Yu (myu2@nd.edu), Wenhao Yu (wyu1@nd.edu), and Meng Jiang (mjiang2@nd.edu)
+
+TODO
+
+### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
+
+### Dataset 2: GCN-small. Community: Graph learning. Center: GCN.
+(https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)
+
+TODO: Text or table to present the statistics (in https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
+
+======
 
 You can use the [editor on GitHub](https://github.com/dmsquare/CiteExplainer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

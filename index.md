@@ -6,8 +6,8 @@ TODO: ...
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...
 
-### Dataset 2: GCN-small. Community: Graph learning. Center: GCN.
-(https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)
+### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
+
 
 TODO: Text or table to present the statistics (in https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
 

@@ -1,9 +1,10 @@
 ## CGCT Datasets
-Main Contributors: Mengxia Yu (myu2@nd.edu), Wenhao Yu (wyu1@nd.edu), and Meng Jiang (mjiang2@nd.edu)
+Main contributors: Mengxia Yu (myu2@nd.edu), Wenhao Yu (wyu1@nd.edu), and Meng Jiang (mjiang2@nd.edu)
 
-TODO
+TODO: ...
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
+TODO: ...
 
 ### Dataset 2: GCN-small. Community: Graph learning. Center: GCN.
 (https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)

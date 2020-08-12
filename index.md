@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages (Main Contributors: Mengxia Yu, Wenhao Yu, and Meng Jiang)
 
 You can use the [editor on GitHub](https://github.com/dmsquare/CiteExplainer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

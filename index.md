@@ -9,7 +9,7 @@ TODO: ...
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
 
 
-TODO: Text or table to present the statistics (in https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
+TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
 
 ======
 

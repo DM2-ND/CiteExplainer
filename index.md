@@ -1,5 +1,5 @@
 ## CGCT Datasets
-Main contributors: Mengxia Yu (myu2@nd.edu), Wenhao Yu (wyu1@nd.edu), and Meng Jiang (mjiang2@nd.edu)
+Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
 
 TODO: ...
 

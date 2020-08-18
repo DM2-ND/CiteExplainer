@@ -1,13 +1,13 @@
 ## CGCT Datasets
 Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
 
-TODO: ...
+### Motivation
+In this project, we provide 19 theme-related, infomation-rich, and appropriate-sized datasets for scientific literature citation research.
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...
 
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
-
 
 TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
 

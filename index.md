@@ -1,50 +1,47 @@
-## CGCT Datasets
+# CGCT Datasets
 Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
 
-TODO: ...
+## Motivation
+Research on the combination of graph and text has been getting much attention. However, existing datasets cannot fully meet the requirements of scientists. Take citation network as an example, the most widely used dataset [CORA](https://relational.fit.cvut.cz/dataset/CORA) contains citation text as edge attributes yet lacks text infomation as node attributes.
+
+In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
+
+- **A citaion network dataset should be related to a specific theme.** For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours.
+- **The datasets should contain rich graph and text infomation**  Each dataset is a connected component if viewed as an undirected graph, which means there are no isolated nodes so that every paper in the datasets has graph infomation. What's more worth mentioning is that each node is with full text and each edge is with citation contexts so that rich text infomation of the graph is available.
+- **The size of the datsets should be controlled to be suitable for research.** The size of most datasets is between 1000 to 10000 nodes. The largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
+![graph example](./resources/graph_example_1.png)
+
+## Dataset Statistics
+The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing).
+
+### Summary of Network Statistics Notation
+- center_id: ID of the center paper of the k-hop graph
+- \|V\|: Number of  nodes
+- \|E\|: Number of edges
+- d_avg: Average degree (unweighted)
+- d_min: Minimum degree
+- k: k of k-hop
+- w_abs_avg: average number of words in abstract
+- w_boey_avg: average number of words in body text
+- w_cnxt_avg: average number of words in citation context
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
-TODO: ...
+Center paper title: “node2vec: Scalable feature learning for networks”
+
+| center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
+|------------|-------|-------|-------|-------|---|-----------|------------|------------|
+| 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    55452        |       96     |
+
 
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
 
+Center paper title: “Semi-supervised classification with graph convolutional networks”
 
-TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
+| center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
+|------------|-------|-------|-------|-------|---|-----------|------------|------------|
+| 3144218  |  862    |  6482  | 7.52  |  2     |  2 |       172    |    5777        |       94     |
 
-======
 
-You can use the [editor on GitHub](https://github.com/dmsquare/CiteExplainer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmsquare/CiteExplainer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

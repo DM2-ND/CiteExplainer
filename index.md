@@ -1,5 +1,5 @@
 # CGCT Datasets
-Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
+Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu) ([DM2 Lab](http://www.meng-jiang.com/lab.html), University of Notre Dame)
 
 ## Motivation
 Graph learning and text generation are two of the most popular applications in machine learning. Recent research shows that texts play an important role in enhancing graph learning. For example, the most widely used citation graph dataset [CORA](https://relational.fit.cvut.cz/dataset/CORA) uses paper abstract as node attribute, which improves the performance of node classification and link prediction. On the other side, graph structures can enhance text generation. For example, knowledge graphs have been used to improve question answering, dialog system, and summarization. However, very little research has been performed to explore the mutual enhancement between graph learning (specifally, link prediction) and text generation (specifically, generating text on link), due to lack of datasets that have textual description on links. The texts on linkage can be considered as the explanation to link formation, which sheds insight on explanable link prediction, or say, explaining link prediction with natural language (instead of a path, etc.)

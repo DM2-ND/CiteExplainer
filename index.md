@@ -16,8 +16,8 @@ The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBki
 
 ### Summary of Network Statistics Notation
 - center_id: ID of the center paper of the k-hop graph
-- |V|: Number of  nodes
-- |E|: Number of edges
+- \|V\|: Number of  nodes
+- \|E\|: Number of edges
 - d_avg: Average degree (unweighted)
 - d_min: Minimum degree
 - k: k of k-hop

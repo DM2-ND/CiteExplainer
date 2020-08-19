@@ -10,6 +10,11 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 - A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
 - The size of most datasets is 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 
+## Dataset Description
+### Summary of network statistics notation
+source_id | ID of the source paper of the k-hop graph.
+
+
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...
 
@@ -17,7 +22,7 @@ TODO: ...
 
 TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
 
-| Graph Name | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
+| source_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
 |            |       |       |       |       |   |           |            |            |
 |            |       |       |       |       |   |           |            |            |

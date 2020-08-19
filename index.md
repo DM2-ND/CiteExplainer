@@ -10,8 +10,10 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 - A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
 - The size of most datasets is controlled between 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 ![graph example](./resources/graph_example.png)
+
 ## Dataset Description
 The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
+
 ### Summary of Network Statistics Notation
 - center_id: ID of the center paper of the k-hop graph
 - |V|: Number of  nodes
@@ -28,13 +30,11 @@ TODO: ...
 
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
 
-TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
-source paper title: T. N. Kipf and M. Welling. Semi-supervised classification with graph convolutional networks.
-In ICLR, 2016
+source paper title: T. N. Kipf and M. Welling. Semi-supervised classification with graph convolutional networks. In ICLR, 2016
 
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
-|            |       |       |       |       |   |           |            |            |
+| 3144218  |  862    |  6482  | 7.52  |  2     |  2 |       172    |    5777        |       94     |
 
 
 

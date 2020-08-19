@@ -12,15 +12,15 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 
 ## Dataset Description
 ### Summary of Network Statistics Notation
-source_id: ID of the source paper of the k-hop graph
-|V|: Number of  nodes
-|E|: Number of edges
-d_avg: Average degree (unweighted)
-d_min: Minimum degree
-k: k of k-hop
-w_abs_avg: average number of words in abstract
-w_boey_avg: average number of words in body text
-w_cnxt_avg: average number of words in citation context
+- source_id: ID of the source paper of the k-hop graph
+- |V|: Number of  nodes
+- |E|: Number of edges
+- d_avg: Average degree (unweighted)
+- d_min: Minimum degree
+- k: k of k-hop
+- w_abs_avg: average number of words in abstract
+- w_boey_avg: average number of words in body text
+- w_cnxt_avg: average number of words in citation context
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...

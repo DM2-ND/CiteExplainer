@@ -1,7 +1,7 @@
-## CGCT Datasets
+# CGCT Datasets
 Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
 
-### Motivation
+## Motivation
 In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for scientific literature citation research. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc).
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.

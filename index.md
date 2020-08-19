@@ -6,13 +6,13 @@ Citation networks of scientific papers have been getting much attention. However
 
 In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
 
-- For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours (mostly k = 3). So that the datasets are theme-related. 
-- A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
+- **A ciataion network dataset should be related to a specific theme.** For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours (mostly k = 3).
+- **The datsets should ** A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
 - The size of most datasets is controlled between 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
-![graph example](./resources/graph_example.png)
+![graph example](./resources/graph_example_1.png)
 
 ## Dataset Description
-The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
+The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing).
 
 ### Summary of Network Statistics Notation
 - center_id: ID of the center paper of the k-hop graph

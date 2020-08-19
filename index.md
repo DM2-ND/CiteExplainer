@@ -9,7 +9,7 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 - For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours (mostly k = 3). So that the datasets are theme-related. 
 - A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
 - The size of most datasets is controlled between 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
-![graph example](.resources/graph_example.pdf)
+![graph example](../resources/graph_example.pdf)
 ## Dataset Description
 The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
 ### Summary of Network Statistics Notation

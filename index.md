@@ -6,13 +6,14 @@ Citation networks of scientific papers have been getting much attention. However
 
 In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
 
-- For each dataset, we take a typical paper in a specific domain as a source and get its k-hop neighbours (mostly k = 3). So that the datasets are theme-related. 
+- For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours (mostly k = 3). So that the datasets are theme-related. 
 - A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
-- The size of most datasets is 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
+- The size of most datasets is controlled between 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 
 ## Dataset Description
+The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
 ### Summary of Network Statistics Notation
-- source_id: ID of the source paper of the k-hop graph
+- center_id: ID of the center paper of the k-hop graph
 - |V|: Number of  nodes
 - |E|: Number of edges
 - d_avg: Average degree (unweighted)
@@ -28,8 +29,10 @@ TODO: ...
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
 
 TODO: Text or table to present the [statistics](https://github.com/dmsquare/CiteExplainer/blob/master/CGCT-GCN-small/ReadMe.txt).
+source paper title: T. N. Kipf and M. Welling. Semi-supervised classification with graph convolutional networks.
+In ICLR, 2016
 
-| source_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
+| center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
 |            |       |       |       |       |   |           |            |            |
 

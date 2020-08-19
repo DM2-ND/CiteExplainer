@@ -12,7 +12,7 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 ![graph example](./resources/graph_example_1.png)
 
 ## Dataset Statistics
-The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing).
+The datasets are available [here](https://drive.google.com/drive/folders/1MPA93HmyHX_unV0vME91-6O4u1PkQf27?usp=sharing).
 
 ### Summary of Network Statistics Notation
 - center_id: ID of the center paper of the k-hop graph

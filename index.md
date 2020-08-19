@@ -11,7 +11,7 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 - **The size of the datsets should be controlled to be suitable for research.** The size of most datasets is between 1000 to 10000 nodes. The largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 ![graph example](./resources/graph_example_1.png)
 
-## Dataset Description
+## Dataset Statistics
 The datasets are available [here](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing).
 
 ### Summary of Network Statistics Notation
@@ -30,7 +30,7 @@ Center paper title: “node2vec: Scalable feature learning for networks”
 
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
-| 29688     |  862    |  6491 | 7.52  |  3     |  3 |       172    |    5777        |       94     |
+| 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    55452        |       96     |
 
 
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.

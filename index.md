@@ -7,8 +7,8 @@ Research on the combination of graph and text has been getting much attention. H
 In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
 
 - **A citaion network dataset should be related to a specific theme.** For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours.
-- **The datasets should contain rich graph and text infomation**  Each dataset is a connected component if viewed as an undirected graph, which means there are no isolated nodes so that every paper in the datasets has graph infomation. What's more worth mentioning is that each node is with full text and each edge is with citation contexts so that rich text infomation of the graph is available.
-- **The size of the datsets should be controlled to be suitable for research.** The size of most datasets is between 1000 to 10000 nodes. The largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
+- **The datasets should contain rich graph and text infomation.**  Each dataset is a connected component if viewed as an undirected graph, which means there are no isolated nodes so that every paper in the datasets has graph infomation. What's more worth mentioning is that each node is with full text and each edge is with citation contexts so that rich text infomation of the graph is available.
+- **The size of the datasets should be controlled to be suitable for research.** The size of most datasets is between 1000 to 10000 nodes. The largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 ![graph example](./resources/graph_example_1.png)
 
 ## Dataset Statistics
@@ -30,7 +30,7 @@ Center paper title: “node2vec: Scalable feature learning for networks”
 
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
-| 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    55452        |       96     |
+| 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    5452        |       96     |
 
 
 ### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
@@ -40,6 +40,8 @@ Center paper title: “Semi-supervised classification with graph convolutional n
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
 | 3144218  |  862    |  6482  | 7.52  |  2     |  2 |       172    |    5777        |       94     |
+
+### Dataset 
 
 
 

@@ -2,7 +2,13 @@
 Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu)
 
 ## Motivation
-In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for scientific literature citation research. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc).
+Citation networks of scientific papers have been getting much attention. However, existing datasets cannot meet the requirements of scientists. 
+
+In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
+
+- For each dataset, we take a typical paper in a specific domain as a source and get its k-hop neighbours (mostly k = 3). So that the datasets are theme-related. 
+- A dataset is a conntected component if viewed as an undirected graph, which makes sure there are no isolated nodes and each node can always find a path to another node.
+- The size of most datasets is 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...

@@ -11,9 +11,16 @@ In this project, we release 19 theme-related, infomation-rich, and appropriate-s
 - The size of most datasets is 1000 to 10000 nodes, the largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 
 ## Dataset Description
-### Summary of network statistics notation
-source_id | ID of the source paper of the k-hop graph.
-
+### Summary of Network Statistics Notation
+source_id: ID of the source paper of the k-hop graph
+|V|: Number of  nodes
+|E|: Number of edges
+d_avg: Average degree (unweighted)
+d_min: Minimum degree
+k: k of k-hop
+w_abs_avg: average number of words in abstract
+w_boey_avg: average number of words in body text
+w_cnxt_avg: average number of words in citation context
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 TODO: ...
@@ -25,16 +32,8 @@ TODO: Text or table to present the [statistics](https://github.com/dmsquare/Cite
 | source_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
 |            |       |       |       |       |   |           |            |            |
-|            |       |       |       |       |   |           |            |            |
-|            |       |       |       |       |   |           |            |            |
 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dmsquare/CiteExplainer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

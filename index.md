@@ -4,11 +4,11 @@ Main contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Men
 ## Motivation
 Graph learning and text generation are two popular machine learning applications. Recent research shows that texts play an important role in graph data learning. For example, the widely studied citation graph dataset [CORA](https://github.com/tkipf/pygcn/tree/master/data/cora) uses paper abstract as node attribute, which improves the performance of node classification and link prediction. Also, graph structural information can enhance text generation. For example, knowledge graphs have been used to improve question answering (e.g., [KBQA](https://github.com/svakulenk0/KBQA)), dialog system, and summarization. However, very little research has been performed to explore the mutual enhancement between graph learning and text generation, specifically, between predicting links and generating textual attributes of links, due to lack of datasets that have textual description on the links. The texts on linkage can be considered as the explanation to link formation, which sheds insight on novel explanable link prediction approaches -- explaining link prediction with natural language.
 
-We introduce a collection of 19 benchmarks for performing and evaluating text-based link prediction and graph-based text generation. These datasets are generated from [S2ORC](https://github.com/allenai/s2orc) which has citation graphs (i.e. rich paper metadata, abstracts, citation links) with a full text corpus. The data components are:
+We introduce a collection of 19 benchmarks for performing and evaluating text-based link prediction and graph-based text generation. These datasets are generated from [S2ORC](https://github.com/allenai/s2orc, AI2 and U Washington) of 81.1M papers which has citation graphs (i.e. rich paper metadata, abstracts, citation links) with a full text corpus. The data components are:
 - **nodes:** papers;
-- **links:** "paperA-cites-paperB" directed edges;
+- **links:** "PaperA-cites-PaperB" directed edges;
 - **node attribute:** abstract or full text of the paper node;
-- **link attribute:** part of paperA's text as context of citing paper B, called "citation contextual text" on the link.
+- **link attribute:** part of PaperA's text as context of citing PaperB, called "citation contextual text" on the link.
 
 In this project, we release 19 theme-related, infomation-rich, and appropriate-sized datasets for research of citation network of scientific papers. All the datsets are generated from [S2ORC](https://github.com/allenai/s2orc). We extract and clean the datasets following the principles below:
 

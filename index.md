@@ -11,8 +11,8 @@ We introduce a collection of 19 benchmarks for performing and evaluating text-ba
 - **link attribute:** part of PaperA's text as context of citing PaperB, called "citation contextual text" on the link.
 
 The principles of building the benchmarks are as follows:
-- **A citaion network dataset should be related to a specific theme.** For each dataset, we take a typical paper in a specific domain as a center and get its k-hop neighbours.
-- **The datasets should contain rich graph and text infomation.**  Each dataset is a connected component if viewed as an undirected graph, which means there are no isolated nodes so that every paper in the datasets has graph infomation. What's more worth mentioning is that each node is with full text and each edge is with citation contexts so that rich text infomation of the graph is available.
+- **Related to a central topic.** Each benchmark is expanded from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [gcn](https://arxiv.org/abs/1609.02907) in graph learning, [transformer](https://arxiv.org/abs/1706.03762) in language model, and [neuralcf](https://arxiv.org/abs/1708.05031) in recommender system.
+- **Connectivity and completeness.** Each dataset is a connected component if viewed as an undirected graph, which means there are no isolated nodes so that every paper in the datasets has graph infomation. What's more worth mentioning is that each node is with full text and each edge is with citation contexts so that rich text infomation of the graph is available.
 - **The size of the datasets should be controlled to be suitable for research.** The size of most datasets is between 1000 to 10000 nodes. The largest is no more than 20000 nodes, and the smallest is no less than 500 nodes.
 ![graph example](./resources/graph_example_1.png)
 
@@ -38,7 +38,7 @@ Center paper title: “node2vec: Scalable feature learning for networks”
 | 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    5452        |       96     |
 
 
-### Dataset 2: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: GCN.
+### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: gcn.
 
 Center paper title: “Semi-supervised classification with graph convolutional networks”
 

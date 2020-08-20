@@ -23,31 +23,31 @@ The principles of building the benchmarks are as follows:
 The **19** benchmark datasets are available [here](https://drive.google.com/drive/folders/1MPA93HmyHX_unV0vME91-6O4u1PkQf27?usp=sharing).
 
 ### Notation of Graph Statistics
+- k: Number of hops expanded from the center node
 - \|V\|: Number of nodes
 - \|E\|: Number of links
 - d<sub>avg</sub>: Average degree
-- k: Number of hops expanded from the center node
 - w<sub>abst</sub>: Average number of words in abstract (node attribute)
 - w<sub>body</sub>: Average number of words in body text (node attribute)
 - w<sub>cite</sub>: Average number of words in citation context (link attribute)
 
-### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
-Center paper title: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
+### Dataset 1: node2vec. Topic: Graph learning.
+Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
 
-| \|V\| | \|E\| | d<sub>avg</sub> | k | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|-------|-------|-------|---|-----------|------------|------------|
-|  6491    | 44477 | 6.85  |  3 |       159    |    5452        |       96     |
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  3 |  6491    | 44477 | 6.85  |       159    |    5452        |       96     |
 
 
-### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: gcn.
+### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
-Center paper title: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
+Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
-| \|V\| | \|E\| | d<sub>avg</sub> | k | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub>g |
-|-------|-------|-------|---|-----------|------------|------------|
-|  862    |  6482  | 7.52  |  2 |       172    |    5777        |       94     |
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub>g |
+|---|-------|-------|-------|-----------|------------|------------|
+|  2 |  862    |  6482  | 7.52  |       172    |    5777        |       94     |
 
-### Dataset 
+### Dataset 3: ...
 
 
 

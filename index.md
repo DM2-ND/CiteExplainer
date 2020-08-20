@@ -25,28 +25,27 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 ### Notation of Graph Statistics
 - \|V\|: Number of nodes
 - \|E\|: Number of links
-- $d_{avg}$: Average degree
-- d_min: Minimum degree
-- k: k of k-hop
-- w_abs_avg: average number of words in abstract
-- w_boey_avg: average number of words in body text
-- w_cnxt_avg: average number of words in citation context
+- d<sub>avg</sub>: Average degree
+- k: Number of hops expanded from the center node
+- w<sub>abst</sub>: Average number of words in abstract (node attribute)
+- w<sub>body</sub>: Average number of words in body text (node attribute)
+- w<sub>cite</sub>: Average number of words in citation context (link attribute)
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
 Center paper title: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
 
-| center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
-|------------|-------|-------|-------|-------|---|-----------|------------|------------|
-| 29688     |  6491    | 44477 | 6.85  |  3     |  3 |       159    |    5452        |       96     |
+| \|V\| | \|E\| | d<sub>avg</sub> | k | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-------|-------|-------|---|-----------|------------|------------|
+|  6491    | 44477 | 6.85  |  3 |       159    |    5452        |       96     |
 
 
 ### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: gcn.
 
 Center paper title: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
-| center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
-|------------|-------|-------|-------|-------|---|-----------|------------|------------|
-| 3144218  |  862    |  6482  | 7.52  |  2     |  2 |       172    |    5777        |       94     |
+| \|V\| | \|E\| | d<sub>avg</sub> | k | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub>g |
+|-------|-------|-------|---|-----------|------------|------------|
+|  862    |  6482  | 7.52  |  2 |       172    |    5777        |       94     |
 
 ### Dataset 
 

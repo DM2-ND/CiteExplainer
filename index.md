@@ -6,7 +6,7 @@ Graph learning and text generation are two popular machine learning applications
 
 We introduce a collection of **19** benchmarks for performing and evaluating text-based link prediction and graph-based text generation. These datasets are generated from [S2ORC](https://github.com/allenai/s2orc) of 81.1M papers which has citation graphs (i.e. rich paper metadata, abstracts, citation links) with a full text corpus. The data components are:
 - **nodes:** papers;
-- **links:** "PaperA-cites-PaperB" directed edges;
+- **links:** "PaperA-cites-PaperB" directed edges; there can be multiple edges between a pair of nodes;
 - **node attribute:** abstract or full text of the paper node;
 - **link attribute:** part of PaperA's text as context of citing PaperB, called "citation contextual text" on the link.
 
@@ -23,10 +23,9 @@ The principles of building the benchmarks are as follows:
 The **19** benchmark datasets are available [here](https://drive.google.com/drive/folders/1MPA93HmyHX_unV0vME91-6O4u1PkQf27?usp=sharing).
 
 ### Notation of Graph Statistics
-- center_id: ID of the center paper of the k-hop graph
-- \|V\|: Number of  nodes
-- \|E\|: Number of edges
-- d_avg: Average degree (unweighted)
+- \|V\|: Number of nodes
+- \|E\|: Number of links
+- $d_{avg}$: Average degree
 - d_min: Minimum degree
 - k: k of k-hop
 - w_abs_avg: average number of words in abstract
@@ -34,7 +33,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 - w_cnxt_avg: average number of words in citation context
 
 ### Dataset 1: node2vec. Community: Graph learning. Center: node2vec.
-Center paper title: “node2vec: Scalable feature learning for networks”
+Center paper title: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
 
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|
@@ -43,7 +42,7 @@ Center paper title: “node2vec: Scalable feature learning for networks”
 
 ### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Community: Graph learning. Center: gcn.
 
-Center paper title: “Semi-supervised classification with graph convolutional networks”
+Center paper title: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
 | center_id | \|V\| | \|E\| | d_avg | d_min | k | w_abs_avg | w_body_avg | w_cnxt_avg |
 |------------|-------|-------|-------|-------|---|-----------|------------|------------|

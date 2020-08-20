@@ -31,6 +31,12 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 - w<sub>body</sub>: Average number of words in body text (node attribute)
 - w<sub>cite</sub>: Average number of words in citation context (link attribute)
 
+### Experimental Settings of Citation Link Prediction
+TODO: Validation methods. Evaluation metrics. Algorithms.
+
+### Experimental Settings of Citation Contextual Text Generaion
+TODO: Validation methods. Evaluation metrics. Algorithms.
+
 ### Dataset 1: node2vec. Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
 
@@ -38,14 +44,25 @@ Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.
 |---|-------|-------|-------|-----------|------------|------------|
 |  3 |  6491    | 44477 | 6.85  |       159    |    5452        |       96     |
 
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
 
 ### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
 Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub>g |
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 |  2 |  862    |  6482  | 7.52  |       172    |    5777        |       94     |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
 
 ### Dataset 3: ...
 

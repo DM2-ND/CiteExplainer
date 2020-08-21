@@ -15,7 +15,7 @@ The principles of building the benchmarks are as follows:
 - **Connectivity and completeness.** The citation graph in each benchmark is a connected component. Any two nodes are connected to each other by paths. In the benchmarks, the attribute of every paper node is text-rich, not only abstract but also full text. Every citation edge has textual attribute, i.e., citation contextual texts.
 - **Good size for graph learning and text generation on a single GPU.** The number of nodes in the benchmarks is usually ranged between 1000 to 10000. The largest number is smaller than 20000 and the smallest is bigger than 500.
 
-![graph example](./resources/graph_example_2.png)
+![graph example](./resources/graph_example_3.png)
 
 ## Datasets
 

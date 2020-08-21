@@ -37,7 +37,7 @@ TODO: Validation methods. Evaluation metrics. Algorithms.
 ### Experimental Settings of Citation Contextual Text Generaion
 TODO: Validation methods. Evaluation metrics. Algorithms.
 
-### Dataset 1: node2vec. Topic: Graph learning.
+### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
@@ -50,7 +50,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 2: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
+### Dataset 2-1: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
 Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
@@ -64,9 +64,89 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 3: ...
+### Dataset 2-2: [gcn](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
 
+Center paper: TODO
 
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
 
+Performance on citation link prediction:
+TODO: A table.
 
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 3: [node2vec+gcn](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 6 [BiLSTM_CRF + CNN_BiLSTM](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 8 
 

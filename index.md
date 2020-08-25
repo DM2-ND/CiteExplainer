@@ -50,7 +50,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 2-1: [gcn-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
+### Dataset 2-1: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
 Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
 
@@ -64,7 +64,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 2-2: [gcn](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
+### Dataset 2-2: [GCN](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
 
 Center paper: TODO
 
@@ -148,5 +148,108 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 8 
+### Dataset 8 [CopyNet](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing)
 
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 9 [SeqAttention+CopyNet](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 10 [Transformer](https://drive.google.com/file/d/1egSADe4CHG7G-Wp9NYYQqj402Ttzh9h7/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 11 [CANLM](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 12 [Transformer+CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 13 [GAN](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 14 [VAE](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing)
+
+Center paper: TODO
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+|  |     |  |   |           |           |           |
+
+Performance on citation link prediction:
+TODO: A table.
+
+Performance on citation contextual text generation:
+TODO: A table.
+
+### Dataset 15 [GAN+VAE](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing)
+
+### Dataset 16 [NeuralCF](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
+
+### Dataset 17 [GCMC](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
+
+### Dataset 18 [NeuralCF+GCMC](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing)

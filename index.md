@@ -78,7 +78,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 3: [node2vec+gcn](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
+### Dataset 3: [node2vec + GCN](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing). Topic: Graph learning.
 
 Center paper:
 [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688) and [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
@@ -93,7 +93,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
+### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing). Topic: Named Entity Recognition.
 
 Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994)
 
@@ -107,7 +107,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
+### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing). Topic: Named Entity Recognition.
 
 Center paper: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
 
@@ -121,7 +121,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 6 [BiLSTM_CRF + CNN_BiLSTM](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
+### Dataset 6 [BiLSTM_CRF + CNN_BiLSTM](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing). Topic: Named Entity Recognition.
 
 Center paper: 
 [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994) and [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
@@ -136,7 +136,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
+### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing). Topic: Text Generation.
 
 Center paper: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (ID: 11212020)
 
@@ -150,7 +150,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 8 [CopyNet](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing)
+### Dataset 8 [CopyNet](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing). Topic: Text Generation.
 
 Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393) (ID: 8174613)
 
@@ -164,7 +164,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 9 [SeqAttention+CopyNet](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
+### Dataset 9 [SeqAttention + CopyNet](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing). Topic: Text Generation.
 
 Center paper: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (ID: 11212020) and [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393) (ID: 8174613)
 
@@ -178,7 +178,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 10 [Transformer](https://drive.google.com/file/d/1egSADe4CHG7G-Wp9NYYQqj402Ttzh9h7/view?usp=sharing)
+### Dataset 10 [Transformer](https://drive.google.com/file/d/1egSADe4CHG7G-Wp9NYYQqj402Ttzh9h7/view?usp=sharing). Topic: Language Model.
 
 Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489)
 
@@ -192,7 +192,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 11 [CANLM](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+### Dataset 11 [CANLM](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing). Topic: Language Model.
 
 Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
 
@@ -206,7 +206,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 12 [Transformer+CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
+### Dataset 12 [Transformer + CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing). Topic: Language Model.
 
 Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489) and [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
@@ -219,7 +219,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 13 [GAN](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing)
+### Dataset 13 [GAN](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing). Topic: Generative Model.
 
 Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial-nets) (ID: 12209503)
 
@@ -233,7 +233,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 14 [VAE](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing)
+### Dataset 14 [VAE](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing). Topic: Generative Model.
 
 Center paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (ID: 15789289)
 
@@ -247,7 +247,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 15 [GAN+VAE](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing)
+### Dataset 15 [GAN + VAE](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing). Topic: Generative Model.
 
 Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial-nets) (ID: 12209503) and [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (ID: 15789289)
 
@@ -261,7 +261,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 16 [NeuralCF](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
+### Dataset 16 [NeuralCF](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing). Topic: Deep RecSys.
 
 Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3038912.3052569)(ID: 13907106)
 
@@ -275,7 +275,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 17 [GCMC](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
+### Dataset 17 [GCMC](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing). Topic: Deep RecSys.
 
 Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
 
@@ -289,7 +289,7 @@ TODO: A table.
 Performance on citation contextual text generation:
 TODO: A table.
 
-### Dataset 18 [NeuralCF+GCMC](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing)
+### Dataset 18 [NeuralCF + GCMC](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing). Topic: Deep RecSys.
 
 Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3038912.3052569)(ID: 13907106) and [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
 

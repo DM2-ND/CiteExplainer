@@ -291,7 +291,7 @@ TODO: A table.
 
 ### Dataset 18 [NeuralCF + GCMC](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing). Topic: Deep RecSys.
 
-Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3038912.3052569)(ID: 13907106) and [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
+Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) (ID: 13907106) and [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|

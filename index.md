@@ -52,7 +52,7 @@ TODO: A table.
 
 ### Dataset 2-1: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
-Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.0290) (ID: 3144218)
+Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
@@ -66,11 +66,11 @@ TODO: A table.
 
 ### Dataset 2-2: [GCN](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
 
-Center paper: TODO
+Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
-|  |     |  |   |           |           |           |
+| 3 |   16366  | 159353 |  9.74  |     164     |    5120       |     88      |
 
 Performance on citation link prediction:
 TODO: A table.
@@ -80,11 +80,13 @@ TODO: A table.
 
 ### Dataset 3: [node2vec+gcn](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
 
-Center paper: TODO
+Center paper:
+[node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
+[Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
-|  |     |  |   |           |           |           |
+| 3  | 1152  |  8760   | 7.60  |     173      |    5801       |        94   |
 
 Performance on citation link prediction:
 TODO: A table.
@@ -94,11 +96,11 @@ TODO: A table.
 
 ### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
 
-Center paper: TODO
+Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
-|  |     |  |   |           |           |           |
+|3  | 4803 |   40737  | 8.48 |      138   |    4559       |    97       |
 
 Performance on citation link prediction:
 TODO: A table.
@@ -108,11 +110,11 @@ TODO: A table.
 
 ### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
 
-Center paper: TODO
+Center paper: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
-|  |     |  |   |           |           |           |
+| 3 |   12481  | 96552 | 7.74  | 157  |      4984    |     90      |
 
 Performance on citation link prediction:
 TODO: A table.
@@ -122,11 +124,13 @@ TODO: A table.
 
 ### Dataset 6 [BiLSTM_CRF + CNN_BiLSTM](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
 
-Center paper: TODO
+Center paper: 
+[Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994)
+[End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
-|  |     |  |   |           |           |           |
+| 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
 
 Performance on citation link prediction:
 TODO: A table.
@@ -136,7 +140,7 @@ TODO: A table.
 
 ### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
 
-Center paper: TODO
+Center paper: 
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|

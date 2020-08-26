@@ -209,6 +209,7 @@ TODO: A table.
 ### Dataset 12 [Transformer + CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing). Topic: Language model.
 
 Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489) and [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
+
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |

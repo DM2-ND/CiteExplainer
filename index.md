@@ -32,7 +32,12 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 - w<sub>cite</sub>: Average number of words in citation context (link attribute)
 
 ### Experimental Settings of Citation Link Prediction
-TODO: Validation methods. Evaluation metrics. Algorithms.
+
+Dataset: Each dataset includes a training set, a validation set, and a test set. The test set contains 10% of existing citation links and the same number of non-existent links. The validation set contains 10% of existing links from training set and the same number of non-existent links.
+
+Evaluation: We use AUC and average precision (AP) as evaluation metrics.
+
+Algorithms: TODO
 
 ### Experimental Settings of Citation Contextual Text Generaion
 TODO: Validation methods. Evaluation metrics. Algorithms.

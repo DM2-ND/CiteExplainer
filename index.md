@@ -33,11 +33,11 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 ### Experimental Settings of Citation Link Prediction
 
-Dataset: Each dataset includes a training set, a validation set, and a test set. The test set contains 10% of existing citation links and the same number of non-existent links. The validation set contains 10% of existing links from training set and the same number of non-existent links.
+**Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains 10% of observed citation links as positive examples and the same number of non-existent links as negative ones. The validation set contains 10% of the links from the training set (i.e., 9% of the entire dataset) as positive examples and the same number of non-existent links as negative examples.
 
-Evaluation: We use AUC and average precision (AP) as evaluation metrics.
+**Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-Algorithms: TODO
+**Algorithms:** TODO
 
 ### Experimental Settings of Citation Contextual Text Generaion
 TODO: Validation methods. Evaluation metrics. Algorithms.

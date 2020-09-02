@@ -37,10 +37,15 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms:** TODO
+**Algorithms**: TODO
 
 ### Experimental Settings of Citation Contextual Text Generaion
-TODO: Validation methods. Evaluation metrics. Algorithms.
+
+**Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of xxx of observed citation links.
+
+**Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
+
+**Algorithms**: TODO
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)

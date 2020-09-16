@@ -37,7 +37,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: TODO
+**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. We use a two-layer GCN encoder and a simple inner product decoder.
 
 ### Experimental Settings of Citation Contextual Text Generaion
 

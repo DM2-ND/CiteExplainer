@@ -45,7 +45,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
 
-**Algorithms**: TODO
+**Algorithms**: We adopt the multi-document summarization architecture proposed by [(Liu, 2018)](https://arxiv.org/abs/1801.10198), which is capable to summarize multi-documents with long sequence, as baseline model. The model consists of two stage: extractive stage and abstractive stage. In extractive stage, we compute tf-idf to rank paragraphs of the cited and citing paper, where the query is the title of cited (and citing) paper. In abstractive stage, we derive the raw text input as the concatination of the paragraphs in order, and prefixed with the title. We tokenize and select the first L tokens to form the input sequences. We adopt Transformer Decoder with Memory-compressed Attention (T-DMCA) as decoder.
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)

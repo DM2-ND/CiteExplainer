@@ -37,11 +37,11 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For the basic GCN model, we use a two-layer GCN encoder and a simple inner product decoder. [Here](https://github.com/rusty1s/pytorch_geometric) is a pytorch implementation of GCN.
+**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907), GCN with text attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For the basic GCN model, we use a two-layer GCN encoder and a simple inner product decoder. [Here](https://github.com/rusty1s/pytorch_geometric) is a pytorch implementation of GCN.
 
 ### Experimental Settings of Citation Contextual Text Generaion
 
-**Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of xxx of observed citation links.
+**Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of 10% of citation links. The validation contains citation contexts of 10% of citation links in the training set.
 
 **Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
 

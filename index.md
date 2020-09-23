@@ -37,7 +37,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907), GCN with text attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For the basic GCN model, we use a two-layer GCN encoder and a simple inner product decoder. [Here](https://github.com/rusty1s/pytorch_geometric) is a pytorch implementation of GCN.
+**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907), GCN with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For the basic GCN model, we use a two-layer GCN to learn the vector representations of nodes. We concatenate the vectors of two nodes to represent a potential edge and then use a dense layer to compute the predictions. [Here](https://github.com/rusty1s/pytorch_geometric) is a pytorch implementation of GCN.
 
 ### Experimental Settings of Citation Contextual Text Generaion
 
@@ -45,7 +45,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
 
-**Algorithms**: We adopt the multi-document summarization architecture proposed by [(Liu, 2018)](https://arxiv.org/abs/1801.10198), which is capable to summarize multi-documents with long sequence, as baseline model. The model consists of two stage: extractive stage and abstractive stage. In extractive stage, we compute tf-idf to rank paragraphs of the cited and citing paper, where the query is the title of cited (and citing) paper. In abstractive stage, we derive the raw text input as the concatination of the paragraphs in order, and prefixed with the title. We tokenize and select the first L tokens to form the input sequences. We adopt Transformer Decoder with Memory-compressed Attention (T-DMCA) as decoder.
+**Algorithms**: We choose a [sequence-to-sequence model](https://arxiv.org/abs/1602.06023) and [dual encoder sequence-to-sequence model](https://arxiv.org/abs/1710.10520) as our baseline methods.
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)

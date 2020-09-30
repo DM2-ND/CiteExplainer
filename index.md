@@ -45,7 +45,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
 
-**Algorithms**: We choose a [sequence-to-sequence model](https://arxiv.org/abs/1602.06023) and [dual encoder sequence-to-sequence model](https://arxiv.org/abs/1710.10520) as our baseline methods.
+**Algorithms**: We choose a [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In this model, we concatenate the abstracts of the citing paper and cited paper as input texts, and apply the attentional encoder-decoder RNN to generate the output texts.
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)

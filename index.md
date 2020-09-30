@@ -37,15 +37,14 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907), GCN with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For the basic GCN model, we use a two-layer GCN to learn the vector representations of nodes. We concatenate the vectors of two nodes to represent a potential edge and then use a dense layer to compute the predictions. [Here](https://github.com/rusty1s/pytorch_geometric) is a pytorch implementation of GCN.
-
+**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907), GCN with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. For GCN model, we use a two-layer GCN to learn the vector representations of nodes. We concatenate the vectors of two nodes to represent a potential edge and then use a dense layer to compute the predictions. For the GCN model with node attributes, we take the text feature as node attributes following this strategy: First, we pre-process the text of all papers in a dataset with segmentation, stemming and filtering the stopwords. Then we choose 1,000 words with the highest frequency. Finally, we take the TF-IDF value vector as the node attribute of each paper. 
 ### Experimental Settings of Citation Contextual Text Generaion
 
 **Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of 10% of citation links. The validation contains citation contexts of 10% of citation links in the training set.
 
 **Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR)
 
-**Algorithms**: We choose a [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In this model, we concatenate the abstracts of the citing paper and cited paper as input texts, and apply the attentional encoder-decoder RNN to generate the output texts.
+**Algorithms**: We choose a classic [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In this model, we concatenate the abstracts of the citing paper and cited paper as input texts, and apply the attentional encoder-decoder RNN to generate the output texts.
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)

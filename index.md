@@ -54,7 +54,11 @@ Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.
 |  3 |  6491    | 44477 | 6.85  |       159    |    5452        |       96     |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP |
+|--------------|-----|----|
+| GCN          |     |    |
+| GCN (0/1)    |     |    |
+| GCN (tf-idf) |   91.35 ± 0.27  |    |
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -67,12 +71,8 @@ Center paper: [Semi-supervised classification with graph convolutional networks]
 |---|-------|-------|-------|-----------|------------|------------|
 |  2 |  862    |  6482  | 7.52  |       172    |    5777        |       94     |
 
-Performance on citation link prediction: AUC and AP in percent.
-|              | AUC | AP |
-|--------------|-----|----|
-| GCN          |     |    |
-| GCN (0/1)    |     |    |
-| GCN (tf-idf) |   91.35 \pm 0.27  |    |
+Performance on citation link prediction:
+
 
 Performance on citation contextual text generation:
 TODO: A table.

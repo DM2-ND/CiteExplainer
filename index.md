@@ -67,10 +67,12 @@ Center paper: [Semi-supervised classification with graph convolutional networks]
 |---|-------|-------|-------|-----------|------------|------------|
 |  2 |  862    |  6482  | 7.52  |       172    |    5777        |       94     |
 
-Performance on citation link prediction:
-| Precision | Recall | F1     | AUC    |
-|-----------|--------|--------|--------|
-| 0.9036    | 0.7670 | 0.8297 | 0.9220 |
+Performance on citation link prediction: AUC and AP in percent.
+|              | AUC | AP |
+|--------------|-----|----|
+| GCN          |     |    |
+| GCN (0/1)    |     |    |
+| GCN (tf-idf) |   91.35 \pm 0.27  |    |
 
 Performance on citation contextual text generation:
 TODO: A table.

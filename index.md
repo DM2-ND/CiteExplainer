@@ -56,9 +56,9 @@ Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.
 Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-------|-----------|----------|----------|
-| GCN          |    |  |  |  |   
+| GCN          |     |       |           |          |          |  
 | GCN (0/1)    |     85.42  |  79.38  | 84.34 |  77.85   |
-| GCN (tf-idf) |     |    |
+| GCN (tf-idf) |     |    |   |
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -74,9 +74,9 @@ Center paper: [Semi-supervised classification with graph convolutional networks]
 Performance on citation link prediction:
 |              | AUC | AP | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|----|-----------|----------|----------|
-| GCN          |     |    |   |    |  |
+| GCN          |     |    |           |          |          |
 | GCN (0/1)    | 85.42  |  79.38  | 84.34 |  77.85   |
-| GCN (tf-idf) |     |    |   |     |    |
+| GCN (tf-idf) |        |         |       |          |    
 
 Performance on citation contextual text generation:
 TODO: A table.

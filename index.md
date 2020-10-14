@@ -47,7 +47,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 **Algorithms**: We choose a classic [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In practice, we sequentially combine the abstracts of the citing paper and cited paper as input texts, and apply the RNN encoder-decoder with attention mechanism to generate the output texts.
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
-Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688)
+Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 26988)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|

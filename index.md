@@ -37,7 +37,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. In practice, we use a two-layer GCN to learn the node representations. We concatenate the vectors of two nodes to represent a potential edge and then use a dense layer to compute the predictions. For the GCN model with node attributes, we take the text feature as node attributes following this strategy: First, we pre-process the text of all papers in a dataset with segmentation, stemming and filtering the stopwords. Then we choose 1,000 words with the highest average TF-IDF values as the feature words. For the value of the feature vectors, we have two choices: (1) Similar to Cora and Citeseer, we take binary values to indicate the existence of feature words. (2) We take the TF-IDF values of feature words. Finally, the feature vector is considered the node attribute.
+**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. In practice, we use a two-layer GCN to learn the node representations. We concatenate the vectors of two nodes to represent a potential edge and then use a dense layer to compute the predictions. For the GCN model with node attributes, we take the text feature as node attributes following this strategy: First, we pre-process the text of all papers in a dataset with segmentation, stemming and filtering the stopwords. Then we choose 1,000 words with the highest average TF-IDF values as the feature words. For the value of the feature vectors, we take the raw frequency of feature words. Finally, the feature vector is considered the node attribute.
 ### Experimental Settings of Citation Contextual Text Generaion
 
 **Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of 10% of citation links. The validation contains citation contexts of 10% of citation links in the training set.
@@ -58,8 +58,7 @@ Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN          |      |           |          |          |
-| GCN (0/1)    |   |   |  |     |
-| GCN (tf-idf) |        |         |       |          |    
+| GCN (WordFreq) |    91.39    |      91.32   |       |          |    
 
 
 Performance on citation contextual text generation:
@@ -78,8 +77,7 @@ Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-------------|-----------|----------|----------|
 | GCN          |             |           |          |          |
-| GCN (0/1)    | 85.42       |  79.38    | 84.34    |  77.85   |
-| GCN (tf-idf) |        |         |       |          |    
+| GCN (WordFreq) |    95.27    |     94.15    |       |          |    
 
 
 Performance on citation contextual text generation:
@@ -98,8 +96,8 @@ Performance on citation link prediction:
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN          |      |           |          |          |
-| GCN (0/1)    |   |    |  |     |
-| GCN (tf-idf) |        |         |       |          |    
+| GCN (WordFreq) |    |    |       |          | 
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -118,8 +116,7 @@ Performance on citation link prediction:
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN          |      |           |          |          |
-| GCN (0/1)    | 85.41  |   79.11 |  84.87 |  78.36   |
-| GCN (tf-idf) |        |         |       |          |   
+| GCN (WordFreq) |    95.85    |      95.55   |       |          |   
 
 Performance on citation contextual text generation:
 TODO: A table.

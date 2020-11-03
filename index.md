@@ -84,8 +84,9 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-------------|-----------|----------|----------|
-| GCN          |             |           |          |          |
-| GCN (WordFreq) |    95.27    |     94.15    |       |          |    
+| GCN (Random)      |             |           |          |          |
+| GCN (WordFreq) |    92.13    |     93.20    |    92.66   |     93.86     |   
+| VGAE (WordFreq) |    92.13    |     93.20    |    92.66   |     93.86     | 
 
 
 Performance on citation contextual text generation:

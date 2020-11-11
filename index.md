@@ -80,9 +80,10 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-------------|-----------|----------|----------|
-| GCN (Random)      |             |           |          |          |
-| GCN (WordFreq) |    92.13    |     93.20    |    92.66   |     93.86     |   
-| VGAE (WordFreq) |    92.13    |     93.20    |    92.66   |     93.86     | 
+| GCN (rand)   |       90.52      |     92.43      |   90.91       |     91.40     |
+| GCN (freq) |    90.94    |     92.09    |    90.41   |     91.86     |   
+| VGAE (rand) |            |             |             |                |
+| VGAE (freq) |    92.13    |     93.20    |    92.66   |     93.86     | 
 
 
 Performance on citation contextual text generation:
@@ -120,8 +121,10 @@ Performance on citation link prediction:
 
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN          |      |           |          |          |
-| GCN (WordFreq) |    95.85    |      95.55   |       |          |   
+| GCN  (rand)   |      |           |          |          |
+| GCN (freq) |      |       |       |          |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
 
 Performance on citation contextual text generation:
 TODO: A table.

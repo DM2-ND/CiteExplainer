@@ -37,13 +37,7 @@ The **19** benchmark datasets are available [here](https://drive.google.com/driv
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Algorithms**: We adopt the basic [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) with node attributes, and [Text Graph Convolutional Networks (TextGCN)](https://arxiv.org/abs/1809.05679) as our baseline methods. In practice, we use a two-layer GCN to learn the node representations. We calculate the inner product of two nodes of a potential link as the predicted prabability of the link. For the GCN model with node attributes, we take the text feature as node attributes following this strategy: First, we pre-process the text of all papers in a dataset with segmentation, stemming and filtering the stopwords. Then we choose 1,000 words with the highest average TF-IDF values as the feature words. For the value of the feature vectors, we take the raw frequency of feature words. Finally, the feature vector is considered the node attribute.
-
-TODO:
-More models. State-of-art link prediction models. 
-VGAE
-GraphSAGE
-
+**Algorithms**: We adopt [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) with node attributes, and [Variational Graph Auto-Encoders](https://arxiv.org/abs/1611.07308) as our baseline methods. In practice, we use a two-layer GCN to learn the node representations. We calculate the inner product of two nodes of a potential link as the predicted prabability of the link. For the GCN model with node attributes, we take the text feature as node attributes following this strategy: First, we pre-process the text of all papers in a dataset with segmentation, stemming and filtering the stopwords. Then we choose 1,000 words with the highest average TF-IDF values as the feature words. We take the normalized word frequencies of feature words as feature vector. Finally, the feature vector is considered the node attribute.
 
 ### Experimental Settings of Citation Contextual Text Generaion
 
@@ -65,8 +59,10 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN          |      |           |          |          |
-| GCN (WordFreq) |    91.39    |      91.32   |       |          |    
+| GCN (rand)   |      |           |     85.83  |    89.27    |
+| GCN (freq) |   94.22    |   95.30   |   94.19   |       95.14   |    
+| VGAE (rand) |      |           |      80.74 |     84.34 |
+| VGAE (freq) |    90.93  |          92.42|        90.96    |     92.54     |
 
 
 Performance on citation contextual text generation:

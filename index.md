@@ -82,7 +82,7 @@ Performance on citation link prediction:
 |--------------|-------------|-----------|----------|----------|
 | GCN (rand)   |       90.52      |     92.43      |   90.91       |     91.40     |
 | GCN (freq) |    90.94    |     92.09    |    90.41   |     91.86     |   
-| VGAE (rand) |            |             |             |                |
+| VGAE (rand) |        86.16    |     88.77        |      85.17       |         87.36       |
 | VGAE (freq) |    92.13    |     93.20    |    92.66   |     93.86     | 
 
 
@@ -99,10 +99,12 @@ Center paper: [Semi-supervised classification with graph convolutional networks]
 
 Performance on citation link prediction:
 
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN          |      |           |          |          |
-| GCN (WordFreq) |    |    |       |          | 
+| GCN (rand)       |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
+| GCN (rand) |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
 
 
 Performance on citation contextual text generation:

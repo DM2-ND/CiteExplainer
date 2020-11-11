@@ -140,7 +140,12 @@ Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.
 |3  | 4803 |   40737  | 8.48 |      138   |    4559       |    97       |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN (rand)       |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
+| GCN (rand) |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -154,7 +159,12 @@ Center paper: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](ht
 | 3 |   12481  | 96552 | 7.74  | 157  |      4984    |     90      |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN (rand)       |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
+| GCN (rand) |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -169,7 +179,12 @@ Center paper:
 | 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN (rand)       |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
+| GCN (rand) |      |           |          |          |
+| GCN (freq) |    |    |       |          | 
 
 Performance on citation contextual text generation:
 TODO: A table.

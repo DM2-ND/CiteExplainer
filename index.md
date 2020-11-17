@@ -123,8 +123,8 @@ Performance on citation link prediction:
 
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |           |          |          |
-| GCN (freq) |      |       |       |          |   
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
 | VGAE (rand) |      |       |       |          |   
 | VGAE (freq) |      |       |       |          |   
 
@@ -142,10 +142,10 @@ Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.
 Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN (rand)       |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
-| GCN (rand) |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
+| GCN (rand)       |   86.89   |       88.49    |    86.65      |     88.51     |
+| GCN (freq) |   92.39 |  93.39  |    92.12   |      93.22    | 
+| VGAE (rand) |   77.52  |   81.42        |    77.83      |     81.63     |
+| VGAE (freq) |  91.13   |  92.39  |    90.78   |       92.02   | 
 
 Performance on citation contextual text generation:
 TODO: A table.

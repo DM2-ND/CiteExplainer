@@ -183,8 +183,8 @@ Performance on citation link prediction:
 |--------------|-----|-----------|----------|----------|
 | GCN (rand)       |      |           |          |          |
 | GCN (freq) |    |    |       |          | 
-| GCN (rand) |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
+| VGAE (rand) |      |           |          |          |
+| VGAE (freq) |    |    |       |          | 
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -226,7 +226,12 @@ Center paper: [Neural Machine Translation by Jointly Learning to Align and Trans
 | 2 |   3505  | 25050 | 7.15  |     146      |     4601      |      98     |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN (rand) |  84.99 |     86.03    |  84.62    |      86.25   |
+| GCN (freq) |    91.35   |     92.38      |     91.14     |      92.11        | 
+| VGAE (rand) |    82.27  |     83.92      |      81.81    |     83.88     |
+| VGAE (freq) |   89.10 |  90.52  |   89.26    |     90.55     | 
 
 Performance on citation contextual text generation:
 TODO: A table.

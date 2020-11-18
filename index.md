@@ -198,7 +198,13 @@ Center paper: [Neural Machine Translation by Jointly Learning to Align and Trans
 | 3 |  3354   | 22850 | 6.81  |     146      |     4598      |      98     |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -212,7 +218,13 @@ Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning]
 | 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98      |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -245,7 +257,13 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93      |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |   90.11   |    92.43     |   89.85   |   92.60    |
+| GCN (freq) |   90.76   |  92.50   | 91.63   |   93.45    |   
+| VGAE (rand) |   85.40   |    88.80   |    85.67   |    89.08      |   
+| VGAE (freq) |   88.59   |    90.64   |    87.46   |    90.46      |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -259,7 +277,13 @@ Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/150
 | 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -273,7 +297,13 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -287,7 +317,13 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 3 |   10586  | 102380 | 9.67  |     170    |  5473  |     90   |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -301,7 +337,13 @@ Center paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 | 3 |    2292 | 15267  |       13.38    |       160    |     5741  |  97 |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -315,7 +357,13 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 2 |   2440  | 16399 | 13.40 |  160    |   5712     |  97        |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -343,7 +391,13 @@ Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706
 | 3 |  4338   | 31991 | 7.37  |      151     |      4905     |      97  |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -357,7 +411,13 @@ Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.114
 | 2 |   18045  | 157990 | 8.76  |    167       |     5152      |      87     |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
+
 
 Performance on citation contextual text generation:
 TODO: A table.

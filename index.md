@@ -101,7 +101,7 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN (rand)       |      |           |          |          |
+| GCN (rand) |      |           |          |          |
 | GCN (freq) |    |    |       |          | 
 | GCN (rand) |      |           |          |          |
 | GCN (freq) |    |    |       |          | 
@@ -284,6 +284,7 @@ Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/150
 | 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   84.91   |     87.24    |   85.13   |    87.25   |
@@ -304,6 +305,7 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   87.98   |     90.85    |  89.36    |  91.77     |
@@ -324,6 +326,7 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 3 |   10586  | 102380 | 9.67  |     170    |  5473  |     90   |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   89.71   |    91.59     |   88.94   |   91.05    |
@@ -344,6 +347,7 @@ Center paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 | 3 |    2292 | 15267  |       13.38    |       160    |     5741  |  97 |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   87.06   |     89.69    |   87.42   |  92.02     |
@@ -364,6 +368,7 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 2 |   2440  | 16399 | 13.40 |  160    |   5712     |  97        |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
@@ -384,6 +389,7 @@ Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.114
 | 3 |   17554  | 150737 |  8.59 |    167       |       5123    |       87    |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
@@ -403,6 +409,7 @@ Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706
 | 3 |  4338   | 31991 | 7.37  |      151     |      4905     |      97  |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
@@ -423,6 +430,7 @@ Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.114
 | 2 |   18045  | 157990 | 8.76  |    167       |     5152      |      87     |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |

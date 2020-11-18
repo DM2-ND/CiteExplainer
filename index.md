@@ -59,9 +59,9 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN (rand)   |      |           |     85.83  |    89.27    |
+| GCN (rand)   |   86.01   |      89.46     |     85.83  |    89.27    |
 | GCN (freq) |   94.22    |   95.30   |   94.19   |       95.14   |    
-| VGAE (rand) |      |           |      80.74 |     84.34 |
+| VGAE (rand) |  87.94    |      84.59     |      80.74 |     84.34 |
 | VGAE (freq) |    90.93  |          92.42|        90.96    |     92.54     |
 
 
@@ -218,7 +218,7 @@ Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning]
 | 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98      |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   84.99   |     86.03    |   84.62   |    86.25   |
 | GCN (freq) |   91.36   |   92.38  |  91.14  |   92.11    |   
@@ -297,12 +297,12 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   87.98   |     90.85    |  89.36    |  91.77     |
+| GCN (freq) |   90.85  |   93.08  |  92.13  |    93.98   |   
+| VGAE (rand) |  84.72    |   88.25    |    84.90   |    88.61      |   
+| VGAE (freq) |   89.07   |    91.86   |     89.99  |      92.26    |   
 
 
 Performance on citation contextual text generation:
@@ -317,7 +317,7 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 3 |   10586  | 102380 | 9.67  |     170    |  5473  |     90   |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   89.71   |    91.59     |   88.94   |   91.05    |
 | GCN (freq) |   94.51   |   95.63  |  94.55  |    95.57   |   
@@ -337,12 +337,12 @@ Center paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 | 3 |    2292 | 15267  |       13.38    |       160    |     5741  |  97 |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   87.06   |     89.69    |   87.42   |  92.02     |
+| GCN (freq) |    91.22  |   92.44  |  92.21  |    93.21   |   
+| VGAE (rand) |   81.43   |   85.75    |    81.80   |     86.24     |   
+| VGAE (freq) |   90.02   |    91.65   |   90.41    |      91.85    |   
 
 
 Performance on citation contextual text generation:
@@ -357,7 +357,7 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 | 2 |   2440  | 16399 | 13.40 |  160    |   5712     |  97        |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
 | GCN (freq) |      |     |    |       |   
@@ -377,7 +377,12 @@ Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.114
 | 3 |   17554  | 150737 |  8.59 |    167       |       5123    |       87    |
 
 Performance on citation link prediction:
-TODO: A table.
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| GCN  (rand)   |      |         |      |       |
+| GCN (freq) |      |     |    |       |   
+| VGAE (rand) |      |       |       |          |   
+| VGAE (freq) |      |       |       |          |   
 
 Performance on citation contextual text generation:
 TODO: A table.

@@ -181,10 +181,10 @@ Center paper:
 Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN (rand)       |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
-| VGAE (rand) |      |           |          |          |
-| VGAE (freq) |    |    |       |          | 
+| GCN (rand) |    88.44    |      90.66     |     88.56     |  90.66  |
+| GCN (freq) |   95.47   |     96.31      |     95.38     |  96.21      | 
+| VGAE (rand) |   85.09   |    87.94       |    84.91      |     87.77     |
+| VGAE (freq) |  94.52  |  95.55  |  94.60     |    95.54      | 
 
 Performance on citation contextual text generation:
 TODO: A table.

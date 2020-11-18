@@ -140,6 +140,7 @@ Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.
 |3  | 4803 |   40737  | 8.48 |      138   |    4559       |    97       |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN (rand)       |   86.89   |       88.49    |    86.65      |     88.51     |
@@ -159,6 +160,7 @@ Center paper: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](ht
 | 3 |   12481  | 96552 | 7.74  | 157  |      4984    |     90      |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN (rand)       |   88.44   |      90.66     |      88.55    |     90.66     |
@@ -179,6 +181,7 @@ Center paper:
 | 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN (rand) |    88.44    |      90.66     |     88.56     |  90.66  |
@@ -198,6 +201,7 @@ Center paper: [Neural Machine Translation by Jointly Learning to Align and Trans
 | 3 |  3354   | 22850 | 6.81  |     146      |     4598      |      98     |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   84.65   |   87.07      |   85.72   |  88.63     |
@@ -218,6 +222,7 @@ Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning]
 | 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98      |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   84.99   |     86.03    |   84.62   |    86.25   |
@@ -238,6 +243,7 @@ Center paper: [Neural Machine Translation by Jointly Learning to Align and Trans
 | 2 |   3505  | 25050 | 7.15  |     146      |     4601      |      98     |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN (rand) |  84.99 |     86.03    |  84.62    |      86.25   |
@@ -257,6 +263,7 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93      |
 
 Performance on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   90.11   |    92.43     |   89.85   |   92.60    |

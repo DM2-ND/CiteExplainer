@@ -279,10 +279,10 @@ Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/150
 Performance on citation link prediction:
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   84.91   |     87.24    |   85.13   |    87.25   |
+| GCN (freq) |    91.85  |   93.29  |  92.02  |   93.47    |   
+| VGAE (rand) |   83.04   |    85.79   |    82.95   |      85.55    |   
+| VGAE (freq) |   90.43   |     92.03  |    90.88   |      92.48    |   
 
 
 Performance on citation contextual text generation:
@@ -319,10 +319,10 @@ Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-gen
 Performance on citation link prediction:
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   89.71   |    91.59     |   88.94   |   91.05    |
+| GCN (freq) |   94.51   |   95.63  |  94.55  |    95.57   |   
+| VGAE (rand) |   86.88   |    89.56   |    86.19   |     89.05     |   
+| VGAE (freq) |   92.93   |    94.37   |     92.62  |     94.12     |   
 
 
 Performance on citation contextual text generation:

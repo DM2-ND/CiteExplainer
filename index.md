@@ -123,10 +123,10 @@ Performance on citation link prediction:
 
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   89.05   |     91.97    |   88.06   |   90.73    |
+| GCN (freq) |   91.03   |  92.68   |  90.44  |    92.32   |   
+| VGAE (rand) |    87.85  |    90.44   |   86.94    |     89.37     |   
+| VGAE (freq) |   87.74   |    90.49   |    87.17   |    89.57      |   
 
 Performance on citation contextual text generation:
 TODO: A table.
@@ -198,12 +198,12 @@ Center paper: [Neural Machine Translation by Jointly Learning to Align and Trans
 | 3 |  3354   | 22850 | 6.81  |     146      |     4598      |      98     |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   84.65   |   87.07      |   85.72   |  88.63     |
+| GCN (freq) |  91.86    |  92.92   |  91.79  |    92.71   |   
+| VGAE (rand) |   80.36   |    84.35   |   80.01    |    84.31      |   
+| VGAE (freq) |   89.37   |     90.82  |   89.32    |     90.45     |   
 
 
 Performance on citation contextual text generation:
@@ -220,10 +220,10 @@ Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning]
 Performance on citation link prediction:
 |              | AUC | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
-| VGAE (rand) |      |       |       |          |   
-| VGAE (freq) |      |       |       |          |   
+| GCN  (rand)   |   84.99   |     86.03    |   84.62   |    86.25   |
+| GCN (freq) |   91.36   |   92.38  |  91.14  |   92.11    |   
+| VGAE (rand) |   82.27   |   83.92  |    81.81   |     83.88     |   
+| VGAE (freq) |    89.10  |     90.05    |    89.26   |    90.54      |   
 
 
 Performance on citation contextual text generation:

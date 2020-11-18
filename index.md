@@ -121,7 +121,7 @@ Center paper:
 
 Performance on citation link prediction:
 
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   89.05   |     91.97    |   88.06   |   90.73    |
 | GCN (freq) |   91.03   |  92.68   |  90.44  |    92.32   |   
@@ -257,7 +257,7 @@ Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-atten
 | 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93      |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   90.11   |    92.43     |   89.85   |   92.60    |
 | GCN (freq) |   90.76   |  92.50   | 91.63   |   93.45    |   
@@ -277,7 +277,7 @@ Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/150
 | 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   84.91   |     87.24    |   85.13   |    87.25   |
 | GCN (freq) |    91.85  |   93.29  |  92.02  |   93.47    |   
@@ -396,7 +396,7 @@ Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706
 | 3 |  4338   | 31991 | 7.37  |      151     |      4905     |      97  |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
 | GCN (freq) |      |     |    |       |   
@@ -416,7 +416,7 @@ Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.114
 | 2 |   18045  | 157990 | 8.76  |    167       |     5152      |      87     |
 
 Performance on citation link prediction:
-|              | AUC | AP (valid)| AUC (test)| AP(test)|
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |      |         |      |       |
 | GCN (freq) |      |     |    |       |   

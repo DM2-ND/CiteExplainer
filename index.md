@@ -373,8 +373,8 @@ Performance on citation link prediction:
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |    89.17  |     90.58    |     90.26 |   91.98    |
 | GCN (freq) |   91.58   |  92.61   |  93.00  |    94.17   |   
-| VGAE (rand) |    81.43  |    85.75   |   81.80    |     86.24     |   
-| VGAE (freq) |  90.02    |    91.65   |   90.41    |   91.88       |   
+| VGAE (rand) |    81.43  |    87.66   |   85.24    |   88.23     |   
+| VGAE (freq) | 87.58    |   89.42   |   88.94    |  90.83     |   
 
 
 Performance on citation contextual text generation:
@@ -394,7 +394,7 @@ Performance on citation link prediction:
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |    90.25  |     92.05   |   90.23   |   92.06    |
 | GCN (freq) |  94.13    |  95.26   |  94.07  |   95.19    |   
-| VGAE (rand) |      |       |       |          |   
+| VGAE (rand) |   84.37   |   87.66    |    85.24   |          |   
 | VGAE (freq) |      |       |       |          |   
 
 Performance on citation contextual text generation:

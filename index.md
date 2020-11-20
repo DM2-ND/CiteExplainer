@@ -434,7 +434,7 @@ Performance on citation link prediction:
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | GCN  (rand)   |   89.59   |     91.34    |   88.68   |   90.76    |
-| GCN (freq) |   94.5   |  95.32   |  93.91  |   94.92    |   
+| GCN (freq) |   94.50   |  95.32   |  93.91  |   94.92    |   
 | VGAE (rand) |    84.57  |    87.53   |    85.26   |      88.04    |   
 | VGAE (freq) |    88.71  |   90.81    |    89.07   |    91.04      |   
 

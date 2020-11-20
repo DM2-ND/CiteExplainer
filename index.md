@@ -101,10 +101,10 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN (rand) |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
-| GCN (rand) |      |           |          |          |
-| GCN (freq) |    |    |       |          | 
+| GCN (rand) |   91.19  |     92.61      |     90.99     |     92.55     |
+| GCN (freq) |  95.72  |  96.51  |   95.64    |      96.54    | 
+| VGAE (rand) |    87.03  |      89.78     |    87.15      |    89.87      |
+| VGAE (freq) |  93.47  |   94.81 |    93.47   |      94.83    | 
 
 
 Performance on citation contextual text generation:
@@ -371,8 +371,8 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
+| GCN  (rand)   |    89.17  |     90.58    |     90.26 |   91.98    |
+| GCN (freq) |   91.58   |  92.61   |  93.00  |    94.17   |   
 | VGAE (rand) |      |       |       |          |   
 | VGAE (freq) |      |       |       |          |   
 
@@ -392,8 +392,8 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
+| GCN  (rand)   |    90.25  |     92.05   |   90.23   |   92.06    |
+| GCN (freq) |  94.13    |  95.26   |  94.07  |   95.19    |   
 | VGAE (rand) |      |       |       |          |   
 | VGAE (freq) |      |       |       |          |   
 
@@ -412,8 +412,8 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
+| GCN  (rand)   |   89.59   |    91.34     |    88.68  |   90.79    |
+| GCN (freq) |    94.13  |   95.26  |  94.07  |   95.29    |   
 | VGAE (rand) |      |       |       |          |   
 | VGAE (freq) |      |       |       |          |   
 
@@ -433,8 +433,8 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |      |         |      |       |
-| GCN (freq) |      |     |    |       |   
+| GCN  (rand)   |   89.59   |     91.34    |   88.68   |   90.76    |
+| GCN (freq) |   94.5   |  95.32   |  93.91  |   94.92    |   
 | VGAE (rand) |      |       |       |          |   
 | VGAE (freq) |      |       |       |          |   
 

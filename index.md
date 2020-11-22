@@ -7,7 +7,7 @@ We introduce a collection of **19** benchmark datasets for performing and evalua
 - **nodes:** papers;
 - **links:** "PaperA-cites-PaperB" directed edges -- there can be multiple edges between a pair of nodes when paperA cites paperB in multiple places;
 - **node attribute:** abstract or full text of the paper node;
-- **link attribute:** part of PaperA's text as context of citing PaperB, called "citation contextual text" on the link.
+- **link attribute:** PaperA's text that cites PaperB, called "citation contextual text" on the link.
 
 The principles of building the benchmark datasets are as follows:
 - **Related to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [gcn](https://arxiv.org/abs/1609.02907) in graph learning, [transformer](https://arxiv.org/abs/1706.03762) in language model, and [neuralcf](https://arxiv.org/abs/1708.05031) in recommender system.

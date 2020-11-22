@@ -392,10 +392,10 @@ Performance on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |    88.82   |   91.26    |  88.65   |     91.08      |
-| GCN (freq) | 94.77    |    95.71   |    95.58   |     95.69      |   
-| VGAE (rand) |     |    | |       |   
-| VGAE (freq) |    |    |     |        |   
+| GCN  (rand)   |    90.43   |   92.30    |  90.42   |     92.26      |
+| GCN (freq) | 95.48    |    96.28   |    95.34   |     96.27      |   
+| VGAE (rand) |   84.57  |  87.53  | 85.26 |    88.04   |   
+| VGAE (freq) |91.26   |  88.71 |   90.81  | 89.82     |   
 
 Performance on citation contextual text generation:
 TODO: A table.

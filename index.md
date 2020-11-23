@@ -29,13 +29,13 @@ The principles of building the benchmark datasets are as follows:
 
 [1] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
 
-[2] Kipf and Welling. "Variational graph auto-encoders." NIPS 2016 Bayesian Deep Learning Workshop.
+[2] Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
 
 ### Text Generation (Link Formation Explanation): Generating the context A cites B
 
-**Validation setting**: Each dataset includes a training set, a validation set, and a test set. The test set contains citation contexts of 10% of citation links. The validation contains citation contexts of 10% of citation links in the training set.
+**Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning.
 
-**Evaluation methods**: Recall-Oriented Understudy for Gisting Evaluation (ROUGE), BiLingual Evaluation Understudy (BLEU), and Metric for Evaluation of Translation with Explicit ORdering (METEOR).
+**Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), and Metric for Evaluation of Translation with Explicit ORdering (METEOR).
 
 **Algorithms**: We choose a classic [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In practice, we sequentially combine the abstracts of the citing paper and cited paper as input texts, and apply the RNN encoder-decoder with attention mechanism to generate the output texts.
 

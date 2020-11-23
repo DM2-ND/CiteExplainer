@@ -25,7 +25,7 @@ The principles of building the benchmark datasets are as follows:
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Preliminary models**: We use two algorithms, [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [1] and [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **GCN-w/o-text**, **GCN-with-text**, **VGAE-w/o-text**, and **VGAE-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute.
+**Preliminary models**: We use two algorithms, [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [1] and [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **GCN-w/o-text**, **GCN-with-text**, **VGAE-w/o-text**, and **VGAE-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
 
 [1] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
 

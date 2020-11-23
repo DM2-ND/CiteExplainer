@@ -7,8 +7,8 @@ Both **graph learning** and **text generation** are important research fields. O
 We introduce a collection of **19** benchmark datasets for performing and evaluating **text-based link prediction** and **graph-based text generation**. These **citation graph** datasets are generated from [S2ORC](https://github.com/allenai/s2orc). The components of each benchmark dataset include:
 - **Nodes:** papers;
 - **Links:** "PaperA-cites-PaperB" directed edges -- there can be multiple edges between a pair of nodes when paperA cites paperB in multiple places;
-- **Node attribute:** abstract or full text of the paper node;
-- **Link attribute:** PaperA's text that cites PaperB, called "citation contextual text" on the link.
+- **Node attribute:** abstract or full text of the paper node -- the **full text** includes **abstract** and **body text**;
+- **Link attribute:** PaperA's text that cites PaperB, called **citation context** on the link.
 
 The principles of building the benchmark datasets are as follows:
 - **Relatedness to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [GCN](https://arxiv.org/abs/1609.02907) in graph learning, [Transformer](https://arxiv.org/abs/1706.03762) in language model, and [NeuralCF](https://arxiv.org/abs/1708.05031) in recommender system.
@@ -35,9 +35,9 @@ The principles of building the benchmark datasets are as follows:
 
 **Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning.
 
-**Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), Metric for Evaluation of Translation with Explicit ORdering (METEOR), and Consensus-based Image Description Evaluation (CIDEr).
+**Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), Metric for Evaluation of Translation with Explicit ORdering (METEOR), and Consensus-based Image Description Evaluation (CIDEr). In detail, [TODO: BLEU-4?]
 
-**Preliminary models**: We use six algorithms, [Seq2Seq](https://arxiv.org/abs/1409.3215) [3], [SeqAtten](https://arxiv.org/abs/1409.0473) [4], [PGN](https://arxiv.org/abs/1704.04368) [5], [Transformer](https://arxiv.org/abs/1706.03762) [6], [BART](https://arxiv.org/abs/1910.13461) [7], and [T5](https://arxiv.org/abs/1910.10683) [8]. Because we are curious about whether graph structural information make a positive impact, for each algorithm, we train two models: one uses the full citation graph, the other only uses one citation link and its nodes (i.e., the texts on the pair of nodes). So we have **twelve** models: **Seq2Seq-w/o-graph**, **Seq2Seq-with-graph**, **SeqAtten-w/o-graph**, **SeqAtten-with-graph**, **PGN-w/o-graph**, **PGN-with-graph**, **Transformer-w/o-graph**, **Transformer-with-graph**, **BART-w/o-graph**, **BART-with-graph**, **T5-w/o-graph**, **T5-with-graph**,. In detail ...
+**Preliminary models**: We use six algorithms, [Seq2Seq](https://arxiv.org/abs/1409.3215) [3], [SeqAtten](https://arxiv.org/abs/1409.0473) [4], [PGN](https://arxiv.org/abs/1704.04368) [5], [Transformer](https://arxiv.org/abs/1706.03762) [6], [BART](https://arxiv.org/abs/1910.13461) [7], and [T5](https://arxiv.org/abs/1910.10683) [8]. Because we are curious about whether graph structural information make a positive impact, for each algorithm, we train two models: one uses the full citation graph, the other only uses one citation link and its nodes (i.e., the texts on the pair of nodes). So we have **twelve** models: **Seq2Seq-w/o-graph**, **Seq2Seq-with-graph**, **SeqAtten-w/o-graph**, **SeqAtten-with-graph**, **PGN-w/o-graph**, **PGN-with-graph**, **Transformer-w/o-graph**, **Transformer-with-graph**, **BART-w/o-graph**, **BART-with-graph**, **T5-w/o-graph**, and **T5-with-graph**. In detail, [TODO: Hyperparameters?]
 
 [3] Sutskever, Vinyals, and Le. "Sequence to sequence learning with neural networks." NeurIPS 2014.
 
@@ -51,28 +51,17 @@ The principles of building the benchmark datasets are as follows:
 
 [8] Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li, and Liu. "Exploring the limits of transfer learning with a unified text-to-text transformer." JMLR 2020.
 
-## Benchmark Citation Graph Datasets
+## Nineteen Benchmark Citation Graph Datasets
 
-### Downloads
-The **19** benchmark datasets are available [here](https://drive.google.com/drive/folders/1MPA93HmyHX_unV0vME91-6O4u1PkQf27?usp=sharing).
-
-### Notation of Graph Statistics
-- k: Number of hops expanded from the center node
-- \|V\|: Number of nodes
-- \|E\|: Number of links
-- d<sub>avg</sub>: Average degree
-- w<sub>abst</sub>: Average number of words in abstract (node attribute)
-- w<sub>body</sub>: Average number of words in body text (node attribute)
-- w<sub>cite</sub>: Average number of words in citation context (link attribute)
-
-### Experimental Settings of Citation Link Prediction
-
-
-
-### Experimental Settings of Citation Contextual Text Generaion
-
-
-
+### Symbol Description
+- C: Center paper node(s);
+- k: Number of hops expanded from the center paper node(s);
+- \|V\|: Number of nodes;
+- \|E\|: Number of links;
+- d<sub>avg</sub>: Average node degree (\|E\|/\|V\|);
+- w<sub>abst</sub>: Average number of words in **abstract** (node attribute);
+- w<sub>body</sub>: Average number of words in **body text** (node attribute);
+- w<sub>cite</sub>: Average number of words in **citation context** (link attribute).
 
 ### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
 Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 26988)

@@ -13,7 +13,7 @@ We introduce a collection of **19** benchmark datasets for performing and evalua
 The principles of building the benchmark datasets are as follows:
 - **Relatedness to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [GCN](https://arxiv.org/abs/1609.02907) in graph learning, [Transformer](https://arxiv.org/abs/1706.03762) in language model, and [NeuralCF](https://arxiv.org/abs/1708.05031) in recommender system.
 - **Graph connectivity and text richness.** Each benchmark graph must be a connected component. Any two nodes are connected to each other by paths. The attribute of every paper node is text-rich, with not only abstract text but also full text. Every citation edge has textual attribute, i.e., the citation contextual text.
-- **Good size for graph learning and text generation on a single GPU.** The number of nodes in each benchmark graph is usually ranged between 1,000 to 10,000. The largest number must be smaller than 20,000 and the smallest must be bigger than 500.
+- **Good size for graph learning and text generation on a single GPU.** The number of nodes in each benchmark graph is usually ranged between 1000 to 10000. The largest number must be smaller than 20000 and the smallest must be bigger than 500.
 
 ![graph example](./resources/graph_example_3.png)
 
@@ -25,7 +25,7 @@ The principles of building the benchmark datasets are as follows:
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1,000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
+**Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
 
 [1] Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
 
@@ -73,15 +73,15 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 
 [9] Grover and Leskovec. "node2vec: Scalable feature learning for networks." KDD 2016.
 
-[Download "CiteExplainer-node2vec"](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing)
+[Download data "CiteExplainer-node2vec"](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing)
 
-Statistics:
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 3 | 6,491 | 44,477 | 6.85 | 159 | 5,452 | 96 |
+| 3 | 6491 | 44477 | 6.85 | 159 | 5452 | 96 |
 
-Results on citation link prediction:
+- Results on citation link prediction:
 
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
@@ -90,9 +90,42 @@ Results on citation link prediction:
 | GCN-w/o-text | 86.01 | 89.46 | 85.83 | 89.27 |
 | GCN-with-text | **94.22** | **95.30** | **94.19** | **95.14** |
 
-Results on citation contextual text generation:
+[Download trained link prediction models "CiteExplainer-node2vec"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-node2vec"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+#### Dataset 2: "CiteExplainer-GCN-small"
+
+Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
+
+[Download "CiteExplainer-GCN-small"](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-|-|-|-|-|-|-|
+| 2 | 862 | 6482 | 7.52 | 172 | 5777 | 94 |
+
+- Results on citation link prediction:
+
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 86.16 | 88.77 | 85.17 | 87.36 |
+| VGAE-with-text | **92.13** | **93.20** | **92.66** | **93.86** | 
+| GCN-w/o-text | 90.52 | 92.43 | 90.91 | 91.40 |
+| GCN-with-text | 90.94 | 92.09 | 90.41 | 91.86 |
+
+[Download trained link prediction models "CiteExplainer-GCN-small"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-GCN-small"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 ### Theme B: Named entity recognition
 
@@ -107,26 +140,7 @@ Results on citation contextual text generation:
 
 
 
-### Dataset 2-1: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 
-Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-|  2 |  862    |  6482  | 7.52  |       172    |    5777        |       94     |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-------------|-----------|----------|----------|
-| GCN (rand)   |       90.52      |     92.43      |   90.91       |     91.40     |
-| GCN (freq) |    90.94    |     92.09    |    90.41   |     91.86     |   
-| VGAE (rand) |        86.16    |     88.77        |      85.17       |         87.36       |
-| VGAE (freq) |    92.13    |     93.20    |    92.66   |     93.86     | 
-
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 2-2: [GCN](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing). Topic: Graph learning.
 

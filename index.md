@@ -25,7 +25,7 @@ The principles of building the benchmark datasets are as follows:
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
+**Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1,000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
 
 [1] Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
 
@@ -79,11 +79,11 @@ Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 3 | 6491 | 44477 | 6.85 | 159 | 5452 | 96 |
+| 3 | 6,491 | 44,477 | 6.85 | 159 | 5,452 | 96 |
 
 Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test)| AP(test)|
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 87.94 | 84.59 | 80.74 | 84.34 |
 | VGAE-with-text | 90.93 | 92.42 | 90.96 | 92.54 |

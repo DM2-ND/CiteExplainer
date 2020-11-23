@@ -11,7 +11,7 @@ We introduce a collection of **19** benchmark datasets for performing and evalua
 - **Link attribute:** PaperA's text that cites PaperB, called "citation contextual text" on the link.
 
 The principles of building the benchmark datasets are as follows:
-- **Relatedness to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [gcn](https://arxiv.org/abs/1609.02907) in graph learning, [transformer](https://arxiv.org/abs/1706.03762) in language model, and [neuralcf](https://arxiv.org/abs/1708.05031) in recommender system.
+- **Relatedness to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [GCN](https://arxiv.org/abs/1609.02907) in graph learning, [Transformer](https://arxiv.org/abs/1706.03762) in language model, and [NeuralCF](https://arxiv.org/abs/1708.05031) in recommender system.
 - **Graph connectivity and text richness.** Each benchmark graph must be a connected component. Any two nodes are connected to each other by paths. The attribute of every paper node is text-rich, with not only abstract text but also full text. Every citation edge has textual attribute, i.e., the citation contextual text.
 - **Good size for graph learning and text generation on a single GPU.** The number of nodes in each benchmark graph is usually ranged between 1,000 to 10,000. The largest number must be smaller than 20,000 and the smallest must be bigger than 500.
 
@@ -25,7 +25,7 @@ The principles of building the benchmark datasets are as follows:
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Preliminary models**: We use two algorithms, [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [1] and [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [2]. Because we are curious about whether textual attributes make a positive impact, for each algorithm, we train two models: one uses the textual features, the other doesn't. So we have four models: **GCN-w/o-text**, **GCN-with-text**, **VGAE-w/o-text**, and **VGAE-with-text**. In detail, we use a two-layer GCN; we select ... (TODO)
+**Preliminary models**: We use two algorithms, [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [1] and [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [2]. Because we are curious about whether textual attributes make a positive impact, for each algorithm, we train two models: one uses the textual features, the other doesn't. So we have **four** models: **GCN-w/o-text**, **GCN-with-text**, **VGAE-w/o-text**, and **VGAE-with-text**. In detail, we use a two-layer GCN; we select ... (TODO)
 
 [1] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
 [2] Kipf and Welling. "Variational graph auto-encoders." NIPS 2016 Bayesian Deep Learning Workshop.

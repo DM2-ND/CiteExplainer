@@ -25,18 +25,17 @@ The principles of building the benchmark datasets are as follows:
 
 **Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
 
-**Preliminary models**: We use two algorithms, [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [1] and [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **GCN-w/o-text**, **GCN-with-text**, **VGAE-w/o-text**, and **VGAE-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
+**Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
 
-[1] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
+[1] Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
 
-[2] Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
+[2] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
 
 ### Text Generation (Link Formation Explanation): Generating the context A cites B
 
 **Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning.
 
 **Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), Metric for Evaluation of Translation with Explicit ORdering (METEOR), and Consensus-based Image Description Evaluation (CIDEr). In detail, <span style="color:red">[TODO: BLEU-4?]</span>.
-
 
 **Preliminary models**: We use six algorithms, [Seq2Seq](https://arxiv.org/abs/1409.3215) [3], [SeqAtten](https://arxiv.org/abs/1409.0473) [4], [PGN](https://arxiv.org/abs/1704.04368) [5], [Transformer](https://arxiv.org/abs/1706.03762) [6], [BART](https://arxiv.org/abs/1910.13461) [7], and [T5](https://arxiv.org/abs/1910.10683) [8]. Because we are curious about whether graph structural information make a positive impact, for each algorithm, we train two models: one uses the full citation graph, the other only uses one citation link and its nodes (i.e., the texts on the pair of nodes). So we have **twelve** models: **Seq2Seq-w/o-graph**, **Seq2Seq-with-graph**, **SeqAtten-w/o-graph**, **SeqAtten-with-graph**, **PGN-w/o-graph**, **PGN-with-graph**, **Transformer-w/o-graph**, **Transformer-with-graph**, **BART-w/o-graph**, **BART-with-graph**, **T5-w/o-graph**, and **T5-with-graph**. In detail, <span style="color:red">[TODO: Hyperparameters?]</span>.
 
@@ -84,16 +83,16 @@ Statistics:
 
 Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand)   |   86.01   |      89.46     |     85.83  |    89.27    |
-| GCN (freq) |   94.22    |   95.30   |   94.19   |       95.14   |    
-| VGAE (rand) |  87.94    |      84.59     |      80.74 |     84.34 |
-| VGAE (freq) |    90.93  |          92.42|        90.96    |     92.54     |
+| | AUC (valid) | AP (valid) | AUC (test)| AP(test)|
+|-|-|-|-|-|
+| VGAE-w/o-text | 87.94 | 84.59 | 80.74 | 84.34 |
+| VGAE-with-text | 90.93 | 92.42 | 90.96 | 92.54 |
+| GCN-w/o-text | 86.01 | 89.46 | 85.83 | 89.27 |
+| GCN-with-text | **94.22** | **95.30** | **94.19** | **95.14** |
 
 Results on citation contextual text generation:
 
-
+<span style="color:red">[TODO: Insert a table.]</span>
 
 ### Theme B: Named entity recognition
 

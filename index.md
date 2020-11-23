@@ -35,14 +35,21 @@ The principles of building the benchmark datasets are as follows:
 
 **Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning.
 
-**Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), and Metric for Evaluation of Translation with Explicit ORdering (METEOR).
+**Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), Metric for Evaluation of Translation with Explicit ORdering (METEOR), and Consensus-based Image Description Evaluation (CIDEr).
 
-**Algorithms**: We choose a classic [sequence-to-sequence summarization model](https://arxiv.org/abs/1602.06023) as baseline method for citation contextual text generation. In practice, we sequentially combine the abstracts of the citing paper and cited paper as input texts, and apply the RNN encoder-decoder with attention mechanism to generate the output texts.
+**Preliminary models**: We use six algorithms, [Seq2Seq](https://arxiv.org/abs/1409.3215) [3], [SeqAtten](https://arxiv.org/abs/1409.0473) [4], [PGN](https://arxiv.org/abs/1704.04368) [5], [Transformer](https://arxiv.org/abs/1706.03762) [6], [BART](https://arxiv.org/abs/1910.13461) [7], and [T5](https://arxiv.org/abs/1910.10683) [8]. Because we are curious about whether graph structural information make a positive impact, for each algorithm, we train two models: one uses the full citation graph, the other only uses one citation link and its nodes (i.e., the texts on the pair of nodes). So we have **twelve** models: **Seq2Seq-w/o-graph**, **Seq2Seq-with-graph**, **SeqAtten-w/o-graph**, **SeqAtten-with-graph**, **PGN-w/o-graph**, **PGN-with-graph**, **Transformer-w/o-graph**, **Transformer-with-graph**, **BART-w/o-graph**, **BART-with-graph**, **T5-w/o-graph**, **T5-with-graph**,. In detail ...
 
+[3] Sutskever, Vinyals, and Le. "Sequence to sequence learning with neural networks." NeurIPS 2014.
 
+[4] Bahdanau, Cho, and Bengio. "Neural machine translation by jointly learning to align and translate." ICLR 2015.
 
+[5] See, Liu, and Manning. "Get to the point: Summarization with pointer-generator networks." ACL 2017.
 
+[6] Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, and Polosukhin. "Attention is all you need." NeurIPS 2017.
 
+[7] Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer. "Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension." arXiv 2019.
+
+[8] Raffel, Shazeer, Roberts, Lee, Narang, Matena, Zhou, Li, and Liu. "Exploring the limits of transfer learning with a unified text-to-text transformer." JMLR 2020.
 
 ## Benchmark Citation Graph Datasets
 

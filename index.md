@@ -54,6 +54,8 @@ The principles of building the benchmark datasets are as follows:
 
 ## Nineteen Benchmark Citation Graph Datasets
 
+The **19 citation graphs** are categorized into **six themes** based on their papers' research topics: A) Graph learning, B) Named entity recognition, C) Text generation, D) Language model, E) Generative model, and F) Deep RecSys.
+
 ### Symbol Description
 - C: Center paper node(s);
 - k: Number of hops expanded from the center paper node(s);
@@ -64,14 +66,23 @@ The principles of building the benchmark datasets are as follows:
 - w<sub>body</sub>: Average number of words in **body text** (node attribute);
 - w<sub>cite</sub>: Average number of words in **citation context** (link attribute).
 
-### Dataset 1: [node2vec](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing). Topic: Graph learning.
-Center paper: [node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 26988)
+### Theme A: Graph learning
+
+#### Dataset 1: "CiteExplainer-node2vec"
+
+Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9] (S2ORC ID: 26988)
+
+[9] Grover and Leskovec. "node2vec: Scalable feature learning for networks." KDD 2016.
+
+[Download "CiteExplainer-node2vec"](https://drive.google.com/file/d/12zfP1UhFEaVJysCpP8EqmfwJLLTNJ0Y_/view?usp=sharing)
+
+Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-|  3 |  6491    | 44477 | 6.85  |       159    |    5452        |       96     |
+|-|-|-|-|-|-|-|
+| 3 | 6491 | 44477 | 6.85 | 159 | 5452 | 96 |
 
-Performance on citation link prediction:
+Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
@@ -80,9 +91,22 @@ Performance on citation link prediction:
 | VGAE (rand) |  87.94    |      84.59     |      80.74 |     84.34 |
 | VGAE (freq) |    90.93  |          92.42|        90.96    |     92.54     |
 
+Results on citation contextual text generation:
 
-Performance on citation contextual text generation:
-TODO: A table.
+
+
+### Theme B: Named entity recognition
+
+### Theme C: Text generation
+
+### Theme D: Language model
+
+### Theme E: Generative model
+
+### Theme F: Deep RecSys
+
+
+
 
 ### Dataset 2-1: [GCN-small](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small). Topic: Graph learning.
 

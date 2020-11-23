@@ -1,6 +1,7 @@
 Contributors: [Mengxia Yu](myu2@nd.edu), [Wenhao Yu](wyu1@nd.edu), and [Meng Jiang](mjiang2@nd.edu) ([DM2 Lab](http://www.meng-jiang.com/lab.html), University of Notre Dame)
 
 ## Motivation
+
 Both **graph learning** and **text generation** are important research fields. On one hand, recent work shows that texts play an important role in graph representation learning. For example, on the citation graph dataset [CORA](https://github.com/tkipf/pygcn/tree/master/data/cora), using paper abstract as node attribute improves the performance of node classification and link prediction. On the other hand, graph structural information enhances text generation. For example, knowledge graphs have been used to improve question answering (e.g., [KBQA](https://github.com/svakulenk0/KBQA)), dialog system, and summarization. However, very little research has been performed to explore the mutual enhancement **between** predicting links **and** generating textual attributes of links. The text on linkage can be considered as the **explanation to link formation**, which sheds insight on novel explanable link prediction approaches -- **explaining link formation with natural language**.
 
 We introduce a collection of **19** benchmark datasets for performing and evaluating **text-based link prediction** and **graph-based text generation**. These **citation graph** datasets are generated from [S2ORC](https://github.com/allenai/s2orc). The components of each benchmark dataset include:
@@ -10,11 +11,18 @@ We introduce a collection of **19** benchmark datasets for performing and evalua
 - **link attribute:** PaperA's text that cites PaperB, called "citation contextual text" on the link.
 
 The principles of building the benchmark datasets are as follows:
-- **Related to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [gcn](https://arxiv.org/abs/1609.02907) in graph learning, [transformer](https://arxiv.org/abs/1706.03762) in language model, and [neuralcf](https://arxiv.org/abs/1708.05031) in recommender system.
-- **Connectivity and completeness.** Each benchmark graph must be a connected component. Any two nodes are connected to each other by paths. The attribute of every paper node is text-rich, with not only abstract text but also full text. Every citation edge has textual attribute, i.e., the citation contextual text.
+- **Relatedness to a central topic.** Each benchmark graph is built by expanding from a specific paper of a popular topic, such as [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) or [gcn](https://arxiv.org/abs/1609.02907) in graph learning, [transformer](https://arxiv.org/abs/1706.03762) in language model, and [neuralcf](https://arxiv.org/abs/1708.05031) in recommender system.
+- **Graph connectivity and text richness.** Each benchmark graph must be a connected component. Any two nodes are connected to each other by paths. The attribute of every paper node is text-rich, with not only abstract text but also full text. Every citation edge has textual attribute, i.e., the citation contextual text.
 - **Good size for graph learning and text generation on a single GPU.** The number of nodes in each benchmark graph is usually ranged between 1,000 to 10,000. The largest number must be smaller than 20,000 and the smallest must be bigger than 500.
 
 ![graph example](./resources/graph_example_3.png)
+
+## The Two Tasks: Validation, Evaluation, and Preliminary Models
+
+
+
+
+
 
 ## Benchmark Citation Graph Datasets
 

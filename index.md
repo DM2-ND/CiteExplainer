@@ -317,9 +317,9 @@ Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC I
 
 #### Dataset 9: "CiteExplainer-CopyNet"
 
-Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8174613)
 
-[14] Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016. 
+[12] Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016. 
 
 [Download data "CiteExplainer-CopyNet"](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing)
 
@@ -348,9 +348,7 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8
 
 #### Dataset 10: "CiteExplainer-SeqAttention-CopyNet"
 
-Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
-
-[13] 
+Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8174613)
 
 [Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
 
@@ -385,7 +383,6 @@ Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC
 
 Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (S2ORC ID: 13756489) 
 
-
 [Download "CiteExplainer-Transformer"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 
 - Staticstics: 
@@ -414,9 +411,9 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 #### Dataset 12: "CiteExplainer-CANLM"
 
-Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [16] (S2ORC ID: 686481)
+Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686481)
 
-[16] 
+[13] Kim, Jernite, Sontag, and Rush. Character-Aware neural language models. AAAI 2016.
 
 [Download "CiteExplainer-CANLM"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 
@@ -443,6 +440,24 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [16] (S2ORC ID: 686
 [Download trained text generation models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 #### Dataset 13: "CiteExplainer-Transformer-CANLM"
+Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (ID: 13756489) and [CANLM](https://arxiv.org/abs/1508.06615) [13] (ID: 686481)
+
+[Download "CiteExplainer-Transformer-CANLM""](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+| 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
+
+- Results on citation link prediction:
+
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| VGAE (rand) |  84.72    |   88.25    |    84.90   |    88.61      |   
+| VGAE (freq) |   89.07   |    91.86   |     89.99  |      92.26    |   
+| GCN  (rand)   |   87.98   |     90.85    |  89.36    |  91.77     |
+| GCN (freq) |   90.85  |   93.08  |  92.13  |    93.98   |   
 
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
@@ -452,22 +467,11 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [16] (S2ORC ID: 686
 ============================================================================
 
 
-### Dataset 12 [Transformer + CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing). Topic: Language model.
+### Dataset 12 [Transformer + CANLM](). Topic: Language model.
 
 Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489) and [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
 
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
 
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   87.98   |     90.85    |  89.36    |  91.77     |
-| GCN (freq) |   90.85  |   93.08  |  92.13  |    93.98   |   
-| VGAE (rand) |  84.72    |   88.25    |    84.90   |    88.61      |   
-| VGAE (freq) |   89.07   |    91.86   |     89.99  |      92.26    |   
 
 
 Performance on citation contextual text generation:

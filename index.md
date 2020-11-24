@@ -381,53 +381,77 @@ Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2OR
 
 ### Theme D: Language model (3 datasets: Dataset 11-13)
 
+#### Dataset 11: "CiteExplainer-Transformer"
+
+Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [15] (S2ORC ID: 13756489) 
+
+[15] Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,  Kaiser, and Polosukhin. "Attention is all you need." NIPS 2017.
+
+[Download "CiteExplainer-Transformer"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+
+- Staticstics: 
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+| 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93     
+
+- Results on citation link prediction:
+
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| VGAE-w/o-text |   85.40   |    88.80   |    85.67   |    89.08      |   
+| VGAE-with-text   88.59   |    90.64   |    87.46   |    90.46      |   
+| GCN-w/o-text   |   90.11   |    92.43     |   89.85   |   92.60    |
+| GCN-with-text  |   **90.76**   |  **92.50**   | **91.63**   |   **93.45**    |   
+
+[Download trained link prediction models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+#### Dataset 12: "CiteExplainer-CANLM"
+
+Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [16] (S2ORC ID: 686481)
+
+[16] 
+
+[Download "CiteExplainer-CANLM"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+
+- Statistics:
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+| 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
+
+- Results on citation link prediction:
+
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| VGAE-w/o-text |   83.04   |    85.79   |    82.95   |      85.55    |   
+| VGAE-with-text|   90.43   |     92.03  |    90.88   |      **92.48**    |  
+| GCN-w/o-text   |   84.91   |     87.24    |   85.13   |    87.25   |
+| GCN-with-text |    **91.85**  |   **93.29**  |  **92.02**  |   93.47    |   
+ 
+[Download trained link prediction models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+#### Dataset 13: "CiteExplainer-Transformer-CANLM"
+
+
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
 ### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
 
 ============================================================================
 
-### Dataset 10 [Transformer](https://drive.google.com/file/d/1egSADe4CHG7G-Wp9NYYQqj402Ttzh9h7/view?usp=sharing). Topic: Language model.
-
-Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93      |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   90.11   |    92.43     |   89.85   |   92.60    |
-| GCN (freq) |   90.76   |  92.50   | 91.63   |   93.45    |   
-| VGAE (rand) |   85.40   |    88.80   |    85.67   |    89.08      |   
-| VGAE (freq) |   88.59   |    90.64   |    87.46   |    90.46      |   
-
-
-Performance on citation contextual text generation:
-TODO: A table.
-
-### Dataset 11 [CANLM](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing). Topic: Language model.
-
-Center paper: [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   84.91   |     87.24    |   85.13   |    87.25   |
-| GCN (freq) |    91.85  |   93.29  |  92.02  |   93.47    |   
-| VGAE (rand) |   83.04   |    85.79   |    82.95   |      85.55    |   
-| VGAE (freq) |   90.43   |     92.03  |    90.88   |      92.48    |   
-
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 12 [Transformer + CANLM](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing). Topic: Language model.
 

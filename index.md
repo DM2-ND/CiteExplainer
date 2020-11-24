@@ -288,9 +288,7 @@ Center paper:
 
 #### Dataset 8: "CiteExplainer-SeqAttention"
 
-Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2ORC ID: 11212020)
-
-[13] Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." ICLR 2015.
+Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020)
 
 [Download data "CiteExplainer-BiLSTMCRF"](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
 
@@ -350,7 +348,9 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8
 
 #### Dataset 10: "CiteExplainer-SeqAttention-CopyNet"
 
-Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+
+[13] 
 
 [Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
 
@@ -383,9 +383,8 @@ Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2OR
 
 #### Dataset 11: "CiteExplainer-Transformer"
 
-Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [15] (S2ORC ID: 13756489) 
+Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (S2ORC ID: 13756489) 
 
-[15] Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez,  Kaiser, and Polosukhin. "Attention is all you need." NIPS 2017.
 
 [Download "CiteExplainer-Transformer"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 

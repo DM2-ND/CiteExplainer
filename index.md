@@ -397,7 +397,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | VGAE-w/o-text |   85.40   |    88.80   |    85.67   |    89.08      |   
-| VGAE-with-text ｜ 88.59   |    90.64   |    87.46   |    90.46      |   
+| VGAE-with-text | 88.59   |    90.64   |    87.46   |    90.46      |   
 | GCN-w/o-text   |   90.11   |    92.43     |   89.85   |   92.60    |
 | GCN-with-text  |   **90.76**   |  **92.50**   | **91.63**   |   **93.45**    |   
 
@@ -428,7 +428,7 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | VGAE-w/o-text |   83.04   |    85.79   |    82.95   |      85.55    |   
-| VGAE-with-text|   90.43   |     92.03  |    90.88   |      **92.48**    |  
+| VGAE-with-text |   90.43   |     92.03  |    90.88   |      **92.48**    |  
 | GCN-w/o-text   |   84.91   |     87.24    |   85.13   |    87.25   |
 | GCN-with-text |    **91.85**  |   **93.29**  |  **92.02**  |   93.47    |   
  

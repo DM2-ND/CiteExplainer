@@ -470,7 +470,115 @@ Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-yo
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
+#### Dataset 14: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+#### Dataset 15: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+#### Dataset 16: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
 ### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
+
+
+
+#### Dataset 17: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+#### Dataset 18: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+#### Dataset 19: "name":
+
+Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
 
 ============================================================================
 

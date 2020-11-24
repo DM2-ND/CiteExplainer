@@ -350,7 +350,7 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8
 
 #### Dataset 10: "CiteExplainer-SeqAttention-CopyNet"
 
-Center paper nodes:  [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
 
 [Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
 
@@ -386,27 +386,6 @@ Center paper nodes:  [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID:
 ### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
 
 ============================================================================
-
-
-### Dataset 9 [SeqAttention + CopyNet](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing). Topic: Text generation.
-
-Center paper: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (ID: 11212020) and [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393) (ID: 8174613)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |   3505  | 25050 | 7.15  |     146      |     4601      |      98     |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand) |  84.99 |     86.03    |  84.62    |      86.25   |
-| GCN (freq) |    91.35   |     92.38      |     91.14     |      92.11        | 
-| VGAE (rand) |    82.27  |     83.92      |      81.81    |     83.88     |
-| VGAE (freq) |   89.10 |  90.52  |   89.26    |     90.55     | 
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 10 [Transformer](https://drive.google.com/file/d/1egSADe4CHG7G-Wp9NYYQqj402Ttzh9h7/view?usp=sharing). Topic: Language model.
 

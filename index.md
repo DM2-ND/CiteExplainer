@@ -53,7 +53,7 @@ The principles of building the benchmark datasets are as follows:
 
 ## Nineteen Benchmark Citation Graph Datasets
 
-The **19 citation graphs** are categorized into **six themes** based on their papers' research topics: A) Graph learning, B) Named entity recognition, C) Text generation, D) Language model, E) Generative model, and F) Deep RecSys.
+The **19 citation graphs** are categorized into **six themes** based on their papers' research topics: A) Graph learning (**4 graphs**), B) Named entity recognition (**3 graphs**), C) Text generation (**3 graphs**), D) Language model (**3 graphs**), E) Generative model (**3 graphs**), and F) Deep RecSys (**3 graphs**).
 
 ### Symbol Description
 - C: Center paper node(s);
@@ -65,7 +65,7 @@ The **19 citation graphs** are categorized into **six themes** based on their pa
 - w<sub>body</sub>: Average number of words in **body text** (node attribute);
 - w<sub>cite</sub>: Average number of words in **citation context** (link attribute).
 
-### Theme A: Graph learning
+### Theme A: Graph learning (4 datasets: Dataset 1--4)
 
 #### Dataset 1: "CiteExplainer-node2vec"
 
@@ -127,62 +127,76 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 [Download trained text generation models "CiteExplainer-GCN-small"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-### Theme B: Named entity recognition
+#### Dataset 3: "CiteExplainer-GCN"
 
-### Theme C: Text generation
+Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
 
-### Theme D: Language model
+[Download "CiteExplainer-GCN"](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
 
-### Theme E: Generative model
-
-### Theme F: Deep RecSys
-
-
-
-
-
-
-### Dataset 2-2: [GCN](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing). Topic: Graph learning.
-
-Center paper: [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |   16366  | 159353 |  9.74  |     164     |    5120       |     88      |
+|-|-|-|-|-|-|-|
+| 3 | 16366 | 159353 | 9.74 | 164 | 5120 | 88 |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand) |   91.19  |     92.61      |     90.99     |     92.55     |
-| GCN (freq) |  95.72  |  96.51  |   95.64    |      96.54    | 
-| VGAE (rand) |    87.03  |      89.78     |    87.15      |    89.87      |
-| VGAE (freq) |  93.47  |   94.81 |    93.47   |      94.83    | 
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 87.03 | 89.78 | 87.15 | 89.87 |
+| VGAE-with-text | 93.47 | 94.81 | 93.47 | 94.83 |
+| GCN-w/o-text | 91.19 | 92.61 | 90.99 | 92.55 |
+| GCN-with-text | **95.72** | **96.51** | **95.64** | **96.54** |
 
+[Download trained link prediction models "CiteExplainer-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-Performance on citation contextual text generation:
-TODO: A table.
+- Results on citation contextual text generation:
 
-### Dataset 3: [node2vec + GCN](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing). Topic: Graph learning.
+<span style="color:red">[TODO: Insert a table.]</span>
 
-Center paper:
-[node2vec: Scalable feature learning for networks](https://dl.acm.org/doi/10.1145/2939672.2939754) (ID: 29688) and [Semi-supervised classification with graph convolutional networks](https://arxiv.org/abs/1609.02907) (ID: 3144218)
+[Download trained text generation models "CiteExplainer-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+#### Dataset 4: "CiteExplainer-node2vec-GCN"
+
+Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9] (S2ORC ID: 26988) and [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
+
+[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
+
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3  | 1152  |  8760   | 7.60  |     173      |    5801       |        94   |
+|-|-|-|-|-|-|-|
+| 3 | 1152 | 8760 | 7.60 | 173 | 5801 | 94 |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   89.05   |     91.97    |   88.06   |   90.73    |
-| GCN (freq) |   91.03   |  92.68   |  90.44  |    92.32   |   
-| VGAE (rand) |    87.85  |    90.44   |   86.94    |     89.37     |   
-| VGAE (freq) |   87.74   |    90.49   |    87.17   |    89.57      |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 87.85 | 90.44 | 86.94 | 89.37 |   
+| VGAE-with-text | 87.74 | 90.49 | 87.17 | 89.57 |   
+| GCN-w/o-text | 89.05 | 91.97 | 88.06 | 90.73 |
+| GCN-with-text | **91.03** | **92.68** | **90.44** | **92.32** |
 
-Performance on citation contextual text generation:
-TODO: A table.
+[Download trained link prediction models "CiteExplainer-node2vec-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-node2vec-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+### Theme B: Named entity recognition (3 datasets: Dataset 5--7)
+
+### Theme C: Text generation (3 datasets: Dataset 8--10)
+
+### Theme D: Language model (3 datasets: Dataset 11--13)
+
+### Theme E: Generative model (3 datasets: Dataset 14--16)
+
+### Theme F: Deep RecSys (3 datasets: Dataset 17--19)
+
+
+
 
 ### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing). Topic: Named entity recognition.
 

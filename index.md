@@ -65,7 +65,7 @@ The **19 citation graphs** are categorized into **six themes** based on their pa
 - w<sub>body</sub>: Average number of words in **body text** (node attribute);
 - w<sub>cite</sub>: Average number of words in **citation context** (link attribute).
 
-### Theme A: Graph learning (4 datasets: Dataset 1--4)
+### Theme A: Graph learning (4 datasets: Dataset 1-4)
 
 #### Dataset 1: "CiteExplainer-node2vec"
 
@@ -108,7 +108,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 2 | 862 | 6482 | 7.52 | 172 | 5777 | 94 |
+| **2** | 862 | 6482 | 7.52 | 172 | 5777 | 94 |
 
 - Results on citation link prediction:
 
@@ -137,7 +137,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 3 | 16366 | 159353 | 9.74 | 164 | 5120 | 88 |
+| **3** | 16366 | 159353 | 9.74 | 164 | 5120 | 88 |
 
 - Results on citation link prediction:
 
@@ -185,38 +185,48 @@ Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [
 
 [Download trained text generation models "CiteExplainer-node2vec-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-### Theme B: Named entity recognition (3 datasets: Dataset 5--7)
+### Theme B: Named entity recognition (3 datasets: Dataset 5-7)
 
-### Theme C: Text generation (3 datasets: Dataset 8--10)
+#### Dataset 5: "CiteExplainer-BiLSTMCRF"
 
-### Theme D: Language model (3 datasets: Dataset 11--13)
+Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994)
 
-### Theme E: Generative model (3 datasets: Dataset 14--16)
+[10] Lample, Ballesteros, Subramanian, Kawakami, and Dyer. "Neural architectures for named entity recognition." NAACL 2016.
 
-### Theme F: Deep RecSys (3 datasets: Dataset 17--19)
+[Download data "CiteExplainer-BiLSTMCRF"](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing)
 
-
-
-
-### Dataset 4: [BiLSTM_CRF](https://drive.google.com/file/d/1Gv0pGj7OIFBkixNpkGoPet-DgjTCL8xa/view?usp=sharing). Topic: Named entity recognition.
-
-Center paper: [Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994)
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-|3  | 4803 |   40737  | 8.48 |      138   |    4559       |    97       |
+|-|-|-|-|-|-|-|
+| 3 | 4803 | 40737 | 8.48 | 138 | 4559 | 97 |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand)       |   86.89   |       88.49    |    86.65      |     88.51     |
-| GCN (freq) |   92.39 |  93.39  |    92.12   |      93.22    | 
-| VGAE (rand) |   77.52  |   81.42        |    77.83      |     81.63     |
-| VGAE (freq) |  91.13   |  92.39  |    90.78   |       92.02   | 
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 77.52 | 81.42 | 77.83 | 81.63 |
+| VGAE-with-text | 91.13 | 92.39 | 90.78 | 92.02 |
+| GCN-w/o-text | 86.89 | 88.49 | 86.65 | 88.51 |
+| GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** | 
+ 
+[Download trained link prediction models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-Performance on citation contextual text generation:
-TODO: A table.
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+### Theme C: Text generation (3 datasets: Dataset 8-10)
+
+### Theme D: Language model (3 datasets: Dataset 11-13)
+
+### Theme E: Generative model (3 datasets: Dataset 14-16)
+
+### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
+
+
 
 ### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing). Topic: Named entity recognition.
 

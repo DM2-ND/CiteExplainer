@@ -454,10 +454,10 @@ Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-yo
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| VGAE (rand) |  84.72    |   88.25    |    84.90   |    88.61      |   
-| VGAE (freq) |   89.07   |    91.86   |     89.99  |      92.26    |   
-| GCN  (rand)   |   87.98   |     90.85    |  89.36    |  91.77     |
-| GCN (freq) |   90.85  |   93.08  |  92.13  |    93.98   |   
+| VGAE-w/o-text |  84.72    |   88.25    |    84.90   |    88.61      |   
+| VGAE-with-text |   89.07   |    91.86   |     89.99  |      92.26    |   
+| GCN-w/o-text   |   87.98   |     90.85    |  89.36    |  91.77     |
+| GCN-with-text |   **90.85**  |   **93.08**  |  **92.13**  |    **93.98**   |   
 
 
 [Download trained link prediction models "CiteExplainer-Transformer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
@@ -470,218 +470,204 @@ Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-yo
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
-#### Dataset 14: "name":
+#### Dataset 14: "CiteExplainer-GAN":
 
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503)
 
-- Statistics:
+[14] Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville, and Bengio. "Generative adversarial nets." NIPS 2014.
 
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-
-#### Dataset 15: "name":
-
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
+[Download "CiteExplainer-GAN"](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing)
 
 - Statistics:
-
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-
-#### Dataset 16: "name":
-
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
-
-- Statistics:
-
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-
-### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
-
-
-
-#### Dataset 17: "name":
-
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
-
-- Statistics:
-
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-#### Dataset 18: "name":
-
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
-
-- Statistics:
-
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-#### Dataset 19: "name":
-
-Center paper node: [xxx](xxxx) [xx] (S2ORC ID: )
-
-- Statistics:
-
-- Results on citation link prediction:
-
-[Download "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
-- Results on citation contextual text generation:
-
-<span style="color:red">[TODO: Insert a table.]</span>
-
-[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-
-============================================================================
-
-
-### Dataset 13 [GAN](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing). Topic: Generative model.
-
-Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial-nets) (ID: 12209503)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 3 |   10586  | 102380 | 9.67  |     170    |  5473  |     90   |
 
-Performance on citation link prediction:
+
+- Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   89.71   |    91.59     |   88.94   |   91.05    |
-| GCN (freq) |   94.51   |   95.63  |  94.55  |    95.57   |   
 | VGAE (rand) |   86.88   |    89.56   |    86.19   |     89.05     |   
 | VGAE (freq) |   92.93   |    94.37   |     92.62  |     94.12     |   
+| GCN  (rand)   |   89.71   |    91.59     |   88.94   |   91.05    |
+| GCN (freq) |   **94.51**   |   **95.63**  |  **94.55**  |    **95.57**   |   
 
 
-Performance on citation contextual text generation:
-TODO: A table.
 
-### Dataset 14 [VAE](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing). Topic: Generative model.
+[Download trained link prediction models “CiteExplainer-GAN”](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
 
-Center paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (ID: 15789289)
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-GAN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+#### Dataset 15: "CiteExplainer-VAE":
+
+Center paper node: [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 15789289)
+
+[15] Kingma and Welling. "Auto-encoding variational bayes." ICLR 2014.
+
+[Download "CiteExplainer-VAE"](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing)
+
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 3 |    2292 | 15267  |       13.38    |       160    |     5741  |  97 |
 
-Performance on citation link prediction:
+
+
+- Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
+| VGAE (rand) |   81.43   |   85.75    |    81.80   |     86.24     |   
+| VGAE (freq) |   90.02   |    91.65   |   90.41    |      91.85    | 
 | GCN  (rand)   |   87.06   |     89.69    |   87.42   |  92.02     |
 | GCN (freq) |    91.22  |   92.44  |  92.21  |    93.21   |   
-| VGAE (rand) |   81.43   |   85.75    |    81.80   |     86.24     |   
-| VGAE (freq) |   90.02   |    91.65   |   90.41    |      91.85    |   
 
 
-Performance on citation contextual text generation:
-TODO: A table.
+[Download trained link prediction models "CiteExplainer-VAE"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
 
-### Dataset 15 [GAN + VAE](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing). Topic: Generative model.
+<span style="color:red">[TODO: Insert a table.]</span>
 
-Center paper: [Generative Adversarial Nets](http://papers.nips.cc/paper/5423-generative-adversarial-nets) (ID: 12209503) and [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (ID: 15789289)
+[Download trained text generation models "CiteExplainer-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+#### Dataset 16: "CiteExplainer-GAN-VAE":
+
+Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503) [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 15789289)
+
+[Download "CiteExplainer-GAN-VAE"](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing)
+- Statistics:
+
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 2 |   2440  | 16399 | 13.40 |  160    |   5712     |  97        |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |    89.17  |     90.58    |     90.26 |   91.98    |
-| GCN (freq) |   91.58   |  92.61   |  93.00  |    94.17   |   
 | VGAE (rand) |    81.43  |    87.66   |   85.24    |   88.23     |   
 | VGAE (freq) | 87.58    |   89.42   |   88.94    |  90.83     |   
+| GCN  (rand)   |    89.17  |     90.58    |     90.26 |   91.98    |
+| GCN (freq) |   91.58   |  92.61   |  93.00  |    94.17   |   
 
 
-Performance on citation contextual text generation:
-TODO: A table.
 
-### Dataset 16 [NeuralCF](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing). Topic: Deep RecSys.
+[Download trained link prediction models "CiteExplainer-GAN-VAE"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
 
-Center paper: [Neural Collaborative Filtering](https://dl.acm.org/doi/abs/10.1145/3038912.3052569)(ID: 13907106)
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-GAN-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
+
+#### Dataset 17: "CiteExplainer-NeuralCF":
+
+Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106)
+
+[15] He, Liao, Zhang, Nie, Hu, and Chua. "Neural collaborative filtering." WWW 2017.
+
+[Download "CiteExplainer-NeuralCF"](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
+
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 3 |   17554  | 150737 |  8.59 |    167       |       5123    |       87    |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
+| VGAE (rand) |   84.57  |  87.53  | 85.26 |    88.04   |   
+| VGAE (freq) |91.26   |  88.71 |   90.81  | 89.82     |  
 | GCN  (rand)   |    90.43   |   92.30    |  90.42   |     92.26      |
 | GCN (freq) | 95.48    |    96.28   |    95.34   |     96.27      |   
-| VGAE (rand) |   84.57  |  87.53  | 85.26 |    88.04   |   
-| VGAE (freq) |91.26   |  88.71 |   90.81  | 89.82     |   
 
-Performance on citation contextual text generation:
-TODO: A table.
 
-### Dataset 17 [GCMC](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing). Topic: Deep RecSys.
+[Download trained link prediction models "CiteExplainer-NeuralCF"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
 
-Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-NeuralCF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+#### Dataset 18: "CiteExplainer-GCMC":
+
+Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
+
+[16] 
+
+[Download "CiteExplainer-GCMC"](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
+
+- Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 3 |  4338   | 31991 | 7.37  |      151     |      4905     |      97  |
 
-Performance on citation link prediction:
+- Results on citation link prediction:
 
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
+| VGAE (rand) |    84.85  |    87.91   |    84.54   |      87.74    |   
+| VGAE (freq) |    91.26  |     92.73  |   90.20    |   91.82       | 
 | GCN  (rand)   |   89.59   |    91.34     |    88.68  |   90.79    |
 | GCN (freq) |    94.13  |   95.26  |  94.07  |   95.29    |   
-| VGAE (rand) |    84.85  |    87.91   |    84.54   |      87.74    |   
-| VGAE (freq) |    91.26  |     92.73  |   90.20    |   91.82       |   
+
+
+[Download trained link prediction models "CiteExplainer-GCMC"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+#### Dataset 19: "CiteExplainer-NeuralCF-GCMC":
+
+Center paper nodes: Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106) and 
+Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
+
+- Statistics:
+
+- Results on citation link prediction:
+
+[Download trained link prediction models "xxxx"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+ 
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "xxx"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+============================================================================
+
+
+### Dataset 17 [GCMC](). Topic: Deep RecSys.
+
+Center paper: [Graph Convolutional Matrix Completion](https://arxiv.org/abs/1706.02263) (ID: 36809545)
+
+  
 
 
 Performance on citation contextual text generation:

@@ -218,6 +218,73 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 
 [Download trained text generation models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+
+#### Dataset 6: "CiteExplainer-CNNBiLSTM"
+
+Center paper: 
+[CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
+
+[11] Ma, and Hovy. "End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF." ACL 2016.
+
+[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-|-|-|-|-|-|-|
+| 3 | 12481 | 96552 | 7.74 | 157 | 4984 | 90 |
+
+- Results on citation link prediction:
+
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 85.09 | 87.94 | 84.91 | 87.77 |
+| VGAE-with-text | 94.52 | 95.55 | 94.60 | 95.54 |
+| GCN-w/o-text | 88.44 | 90.66 |88.55 | 90.66 |
+| GCN-with-text | **95.47** | **96.31** | **95.38** | **96.21** | 
+ 
+[Download trained link prediction models "CiteExplainer-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
+
+#### Dataset 7 "CiteExplainer-BiLSTMCRF-CNNBiLSTM".
+
+Center paper: 
+[BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994) and [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
+
+[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|---|-------|-------|-------|-----------|------------|------------|
+| 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
+
+- Results on citation link prediction:
+
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| VGAE-w/o-text | 81.42  |   83.94     |    82.28     |   84.79    |
+| VGAE-with-text | 91.68  | 92.73 | 91.87    |   92.95      | 
+| GCN-w/o-text |   86.56  |    88.00   |    86.84    | 88.22 |
+| GCN-with-text| **92.37** |     **93.45**     |    **92.60**     | **93.60**     | 
+
+
+[Download trained link prediction models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
+
 ### Theme C: Text generation (3 datasets: Dataset 8-10)
 
 ### Theme D: Language model (3 datasets: Dataset 11-13)
@@ -228,46 +295,9 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 
 ============================================================================
 
-### Dataset 5 [CNN_BiLSTM](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing). Topic: Named entity recognition.
 
-Center paper: [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
 
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |   12481  | 96552 | 7.74  | 157  |      4984    |     90      |
 
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand)       |   88.44   |      90.66     |      88.55    |     90.66     |
-| GCN (freq) |  95.47  |  96.31  |    95.38   |     96.21     | 
-| VGAE (rand) |  85.09    |       87.94    |    84.91      |     87.77     |
-| VGAE (freq) |  94.52  |  95.55  |     94.60  |    95.54      | 
-
-Performance on citation contextual text generation:
-TODO: A table.
-
-### Dataset 6 [BiLSTM_CRF + CNN_BiLSTM](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing). Topic: Named entity recognition.
-
-Center paper: 
-[Neural Architectures for Named Entity Recognition](https://arxiv.org/abs/1603.01360)(ID: 6042994) and [End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF](https://arxiv.org/abs/1603.01354)(ID: 10489017)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN (rand) |   86.56  |    88.00   |    86.84    | 88.22 |
-| GCN (freq) |  92.37 |     93.45     |    92.60     | 93.60     | 
-| VGAE (rand) | 81.42  |   83.94     |    82.28     |   84.79    |
-| VGAE (freq) | 91.68  | 92.73 | 91.87    |   92.95      | 
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing). Topic: Text generation.
 

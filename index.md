@@ -305,18 +305,18 @@ Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [10] (S2ORC 
 
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
-| VGAE-w/o-text | 77.52 | 81.42 | 77.83 | 81.63 |
-| VGAE-with-text | 91.13 | 92.39 | 90.78 | 92.02 |
-| GCN-w/o-text | 86.89 | 88.49 | 86.65 | 88.51 |
-| GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** | 
+| VGAE-w/o-text |   80.36   |    84.35   |   80.01    |    84.31     |
+| VGAE-with-text |   89.37   |     90.82  |   89.32    |     90.45    |
+| GCN-w/o-text |  84.65   |   87.07      |   85.72   |  88.63    |
+| GCN-with-text | **91.86** | **92.92** | **91.79** | **92.71** | 
  
-[Download trained link prediction models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-SeqAttention"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
-[Download trained text generation models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained text generation models "CiteExplainer-SeqAttention"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 
 ### Theme D: Language model (3 datasets: Dataset 11-13)

@@ -330,6 +330,7 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8
 | 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98     |
 
 - Results on citation link prediction:
+
 |              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
 |--------------|-----|-----------|----------|----------|
 | VGAE-w/o-text|   82.27   |   83.92  |    81.81   |     83.88     |   
@@ -562,7 +563,7 @@ Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial
 | VGAE-w/o-text|    81.43  |    87.66   |   85.24    |   88.23     |   
 | VGAE-with-text| 87.58    |   89.42   |   88.94    |  90.83     |   
 | GCN-w/o-text |    89.17  |     90.58    |     90.26 |   91.98    |
-| GCN-with-text |   91.58   |  92.61   |  93.00  |    94.17   |   
+| GCN-with-text |   **91.58**   |  **92.61**   |  **93.00**  |    **94.17**   |   
 
 
 

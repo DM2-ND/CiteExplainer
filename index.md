@@ -460,22 +460,20 @@ Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-yo
 | GCN (freq) |   90.85  |   93.08  |  92.13  |    93.98   |   
 
 
+[Download trained link prediction models "CiteExplainer-Transformer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-Transformer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
 ### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
 
 ============================================================================
 
-
-### Dataset 12 [Transformer + CANLM](). Topic: Language model.
-
-Center paper: [Attention Is All You Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need) (ID: 13756489) and [Character-Aware Neural Language Models](https://arxiv.org/abs/1508.06615) (ID: 686481)
-
-
-
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 13 [GAN](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing). Topic: Generative model.
 

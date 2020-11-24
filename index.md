@@ -287,6 +287,38 @@ Center paper:
 
 ### Theme C: Text generation (3 datasets: Dataset 8-10)
 
+#### Dataset 8: "CiteExplainer-SeqAttention"
+
+Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994)
+
+[12] Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." ICLR 2015.
+
+[Download data "CiteExplainer-BiLSTMCRF"](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-|-|-|-|-|-|-|
+| 3 | 4803 | 40737 | 8.48 | 138 | 4559 | 97 |
+
+- Results on citation link prediction:
+
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 77.52 | 81.42 | 77.83 | 81.63 |
+| VGAE-with-text | 91.13 | 92.39 | 90.78 | 92.02 |
+| GCN-w/o-text | 86.89 | 88.49 | 86.65 | 88.51 |
+| GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** | 
+ 
+[Download trained link prediction models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+
 ### Theme D: Language model (3 datasets: Dataset 11-13)
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)

@@ -419,6 +419,7 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 [Download "CiteExplainer-CANLM"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 
 - Statistics:
+
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |---|-------|-------|-------|-----------|------------|------------|
 | 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |

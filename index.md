@@ -253,7 +253,6 @@ Center paper:
 
 
 
-
 #### Dataset 7 "CiteExplainer-BiLSTMCRF-CNNBiLSTM".
 
 Center paper: 
@@ -289,9 +288,9 @@ Center paper:
 
 #### Dataset 8: "CiteExplainer-SeqAttention"
 
-Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994)
+Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [13] (S2ORC ID: 11212020)
 
-[12] Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." ICLR 2015.
+[13] Bahdanau, Dzmitry, Kyunghyun Cho, and Yoshua Bengio. "Neural machine translation by jointly learning to align and translate." ICLR 2015.
 
 [Download data "CiteExplainer-BiLSTMCRF"](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
 
@@ -318,6 +317,67 @@ Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [10] (S2ORC 
 
 [Download trained text generation models "CiteExplainer-SeqAttention"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+#### Dataset 9: "CiteExplainer-CopyNet"
+
+Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+
+[14] Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016. 
+
+[Download data "CiteExplainer-CopyNet"](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-|-|-|-|-|-|-|
+| 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98     |
+
+- Results on citation link prediction:
+|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
+|--------------|-----|-----------|----------|----------|
+| VGAE-w/o-text|   82.27   |   83.92  |    81.81   |     83.88     |   
+| VGAE-with-text |    89.10  |     90.05    |    89.26   |    90.54      |   
+| GCN-w/o-text  |   84.99   |     86.03    |   84.62   |    86.25   |
+| GCN-with-text  |   **91.36**   |   **92.38**  |  **91.14**  |   **92.11**    |   
+
+ 
+[Download trained link prediction models "CiteExplainer-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+#### Dataset 10: "CiteExplainer-SeqAttention-CopyNet"
+
+Center paper nodes:  [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613) and [CopyNet](https://arxiv.org/abs/1603.06393) [14] (S2ORC ID: 8174613)
+
+[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
+
+- Statistics:
+
+| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
+|-|-|-|-|-|-|-|
+| 3 | 1152 | 8760 | 7.60 | 173 | 5801 | 94 |
+
+- Results on citation link prediction:
+
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text |    82.27  |     83.92      |      81.81    |     83.88     |
+| VGAE-with-text |   89.10 |  90.52  |   89.26    |     90.55     | 
+| GCN-w/o-text |  84.99 |     86.03    |  84.62    |      86.25   |
+| GCN-with-text  |    **91.35**   |     **92.38**      |     **91.14**   | **92.11**        | 
+
+
+[Download trained link prediction models "CiteExplainer-SeqAttention-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
+- Results on citation contextual text generation:
+
+<span style="color:red">[TODO: Insert a table.]</span>
+
+[Download trained text generation models "CiteExplainer-SeqAttention-CopyNet""](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+
 
 ### Theme D: Language model (3 datasets: Dataset 11-13)
 
@@ -327,51 +387,6 @@ Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [10] (S2ORC 
 
 ============================================================================
 
-
-
-
-
-### Dataset 7 [SeqAttention](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing). Topic: Text generation.
-
-Center paper: [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473) (ID: 11212020)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  3354   | 22850 | 6.81  |     146      |     4598      |      98     |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   84.65   |   87.07      |   85.72   |  88.63     |
-| GCN (freq) |  91.86    |  92.92   |  91.79  |    92.71   |   
-| VGAE (rand) |   80.36   |    84.35   |   80.01    |    84.31      |   
-| VGAE (freq) |   89.37   |     90.82  |   89.32    |     90.45     |   
-
-
-Performance on citation contextual text generation:
-TODO: A table.
-
-### Dataset 8 [CopyNet](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing). Topic: Text generation.
-
-Center paper: [Incorporating Copying Mechanism in Sequence-to-Sequence Learning](https://arxiv.org/abs/1603.06393) (ID: 8174613)
-
-| k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98      |
-
-Performance on citation link prediction:
-
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| GCN  (rand)   |   84.99   |     86.03    |   84.62   |    86.25   |
-| GCN (freq) |   91.36   |   92.38  |  91.14  |   92.11    |   
-| VGAE (rand) |   82.27   |   83.92  |    81.81   |     83.88     |   
-| VGAE (freq) |    89.10  |     90.05    |    89.26   |    90.54      |   
-
-
-Performance on citation contextual text generation:
-TODO: A table.
 
 ### Dataset 9 [SeqAttention + CopyNet](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing). Topic: Text generation.
 

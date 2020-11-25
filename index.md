@@ -627,6 +627,7 @@ Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.305256
 | 2 | 18045 | 157990 | 8.76 | 167 | 5152 | 87 |
 
 - Results on citation link prediction:
+
 | | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 89.59 | 91.34 | 88.68 | 90.76 |

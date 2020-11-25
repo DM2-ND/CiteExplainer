@@ -23,7 +23,7 @@ The principles of building the benchmark datasets are as follows:
 
 **Validation setting**: Each data has a training set, a validation set, and a test set. The test set contains 10% of observed citation links as positive examples and the same number of non-existent links as negative examples. The validation set contains 10% of the links from the training set (i.e., 9% of the entire dataset) as positive examples and the same number of non-existent links as negative examples.
 
-**Evaluation methods**: Area Under the Curve (AUC) and Average Precision (AP).
+**Evaluation methods**: Area Under the ROC (AUC), Average Precision (AP), and F1 (with the "best" threshold).
 
 **Preliminary models**: We use two algorithms, [Variational Graph Auto-Encoders (VGAE)](https://arxiv.org/abs/1611.07308) [1] and [Graph Convolutional Networks (GCN)](https://arxiv.org/abs/1609.02907) [2]. Because we are curious about whether text-based raw node features make a positive impact, for each algorithm, we train two models: one uses the text-based features, the other doesn't. So we have **four** models: **VGAE-w/o-text**, **VGAE-with-text**, **GCN-w/o-text**, and **GCN-with-text**. In detail, we use a two-layer GCN. We select 1000 words of the highest TF-IDF as the nodes' raw features. Given a node and a word, the feature value is the frequency of the word in the node's textual attribute (e.g., abstract or full text).
 
@@ -31,9 +31,9 @@ The principles of building the benchmark datasets are as follows:
 
 [2] Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
 
-### Text Generation (Link Formation Explanation): Generating the context A cites B
+### Text Generation (Link Formation Explanation): Generating the context that paper A cites B
 
-**Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning.
+**Validation setting**: It uses the same training, validation, and test sets as in the task of Graph Learning. We use the full text (<span style="color:red">abstract?</span>) of paper B and abstract of paper A. We do not use the full text of paper A.
 
 **Evaluation methods**: BiLingual Evaluation Understudy (BLEU), Recall-Oriented Understudy for Gisting Evaluation (ROUGE), Metric for Evaluation of Translation with Explicit ORdering (METEOR), and Consensus-based Image Description Evaluation (CIDEr). In detail, <span style="color:red">[TODO: BLEU-4?]</span>.
 
@@ -83,12 +83,12 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP(test) | F1 (test) |
 |-|-|-|-|-|
-| VGAE-w/o-text | 87.94 | 84.59 | 80.74 | 84.34 |
-| VGAE-with-text | 90.93 | 92.42 | 90.96 | 92.54 |
-| GCN-w/o-text | 86.01 | 89.46 | 85.83 | 89.27 |
-| GCN-with-text | **94.22** | **95.30** | **94.19** | **95.14** |
+| VGAE-w/o-text | 87.94 | 84.59 | <span style="color:red">XX.XX</span> | 80.74 | 84.34 | <span style="color:red">XX.XX</span> |
+| VGAE-with-text | 90.93 | 92.42 | <span style="color:red">XX.XX</span> | 90.96 | 92.54 | <span style="color:red">XX.XX</span> |
+| GCN-w/o-text | 86.01 | 89.46 | <span style="color:red">XX.XX</span> | 85.83 | 89.27 | <span style="color:red">XX.XX</span> |
+| GCN-with-text | **94.22** | **95.30** | <span style="color:red">XX.XX</span> | **94.19** | **95.14** | <span style="color:red">XX.XX</span> |
 
 [Download trained link prediction models "CiteExplainer-node2vec"](https://drive.google.com/drive/folders/1q0zInIh28wohhrmXpfrMhZaSDZfZDOEv?usp=sharing) 
 

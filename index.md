@@ -102,7 +102,7 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 
 Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
 
-[Download "CiteExplainer-GCN-small"](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)
+[Download data "CiteExplainer-GCN-small"](https://github.com/dmsquare/CiteExplainer/tree/master/CGCT-GCN-small)
 
 - Statistics:
 
@@ -115,7 +115,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 86.16 | 88.77 | 85.17 | 87.36 |
-| VGAE-with-text | **92.13** | **93.20** | **92.66** | **93.86** | 
+| VGAE-with-text | **92.13** | **93.20** | **92.66** | **93.86** |
 | GCN-w/o-text | 90.52 | 92.43 | 90.91 | 91.40 |
 | GCN-with-text | 90.94 | 92.09 | 90.41 | 91.86 |
 
@@ -131,7 +131,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
 
-[Download "CiteExplainer-GCN"](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
+[Download data "CiteExplainer-GCN"](https://drive.google.com/file/d/1ZQiOn0aUdwB699e6yl5dEr__YXBrxbby/view?usp=sharing)
 
 - Statistics:
 
@@ -159,7 +159,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9] (S2ORC ID: 26988) and [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 3144218)
 
-[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
+[Download data "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1VNJUUlJhw-ndi5VfuTNNJw2zS4kAVGTf/view?usp=sharing)
 
 - Statistics:
 
@@ -171,8 +171,8 @@ Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [
 
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
-| VGAE-w/o-text | 87.85 | 90.44 | 86.94 | 89.37 |   
-| VGAE-with-text | 87.74 | 90.49 | 87.17 | 89.57 |   
+| VGAE-w/o-text | 87.85 | 90.44 | 86.94 | 89.37 |
+| VGAE-with-text | 87.74 | 90.49 | 87.17 | 89.57 |
 | GCN-w/o-text | 89.05 | 91.97 | 88.06 | 90.73 |
 | GCN-with-text | **91.03** | **92.68** | **90.44** | **92.32** |
 
@@ -207,8 +207,8 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 | VGAE-w/o-text | 77.52 | 81.42 | 77.83 | 81.63 |
 | VGAE-with-text | 91.13 | 92.39 | 90.78 | 92.02 |
 | GCN-w/o-text | 86.89 | 88.49 | 86.65 | 88.51 |
-| GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** | 
- 
+| GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** |
+
 [Download trained link prediction models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
@@ -217,15 +217,13 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 
 [Download trained text generation models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
 #### Dataset 6: "CiteExplainer-CNNBiLSTM"
 
-Center paper: 
-[CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
+Center paper node: [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
 
-[11] Ma, and Hovy. "End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF." ACL 2016.
+[11] Ma and Hovy. "End-to-end sequence labeling via bi-directional LSTM-CNNs-CRF." ACL 2016.
 
-[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
+[Download data "CiteExplainer-CNNBiLSTM"](https://drive.google.com/file/d/1ngVrxAmWyebsGC1jM0_anWV40SuwFVjZ/view?usp=sharing)
 
 - Statistics:
 
@@ -240,8 +238,8 @@ Center paper:
 | VGAE-w/o-text | 85.09 | 87.94 | 84.91 | 87.77 |
 | VGAE-with-text | 94.52 | 95.55 | 94.60 | 95.54 |
 | GCN-w/o-text | 88.44 | 90.66 |88.55 | 90.66 |
-| GCN-with-text | **95.47** | **96.31** | **95.38** | **96.21** | 
- 
+| GCN-with-text | **95.47** | **96.31** | **95.38** | **96.21** |
+
 [Download trained link prediction models "CiteExplainer-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
@@ -250,28 +248,24 @@ Center paper:
 
 [Download trained text generation models "CiteExplainer-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+#### Dataset 7: "CiteExplainer-BiLSTMCRF-CNNBiLSTM"
 
+Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994) and [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
 
-#### Dataset 7 "CiteExplainer-BiLSTMCRF-CNNBiLSTM".
-
-Center paper: 
-[BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994) and [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
-
-[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
+[Download data "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |  5473   | 48169 |  8.80 |      137     |     4534      |      97     |
+|-|-|-|-|-|-|-|
+| 2 | 5473 | 48169 | 8.80 | 137 | 4534 | 97 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text | 81.42  |   83.94     |    82.28     |   84.79    |
-| VGAE-with-text | 91.68  | 92.73 | 91.87    |   92.95      | 
-| GCN-w/o-text |   86.56  |    88.00   |    86.84    | 88.22 |
-| GCN-with-text| **92.37** |     **93.45**     |    **92.60**     | **93.60**     | 
-
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 81.42 | 83.94 | 82.28 | 84.79 |
+| VGAE-with-text | 91.68 | 92.73 | 91.87 | 92.95 |
+| GCN-w/o-text | 86.56 | 88.00 | 86.84 | 88.22 |
+| GCN-with-text| **92.37** | **93.45** | **92.60** | **93.60** |
 
 [Download trained link prediction models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](https://drive.google.com/drive/folders/1ZrB0NN09Ukd4uH5jakzpDTBB7UfWhFy2?usp=sharing)
 
@@ -281,15 +275,13 @@ Center paper:
 
 [Download trained text generation models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
-
 ### Theme C: Text generation (3 datasets: Dataset 8-10)
 
-#### Dataset 8: "CiteExplainer-SeqAttention"
+#### Dataset 8: "CiteExplainer-SeqAtten"
 
-Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020)
+Center paper node: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020)
 
-[Download data "CiteExplainer-BiLSTMCRF"](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
+[Download data "CiteExplainer-SeqAtten"](https://drive.google.com/file/d/1d4cUN8X6zl-eRwpORUFUyZ-qilPmH1Ue/view?usp=sharing)
 
 - Statistics:
 
@@ -301,24 +293,24 @@ Center paper node: [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC I
 
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
-| VGAE-w/o-text |   80.36   |    84.35   |   80.01    |    84.31     |
-| VGAE-with-text |   89.37   |     90.82  |   89.32    |     90.45    |
-| GCN-w/o-text |  84.65   |   87.07      |   85.72   |  88.63    |
-| GCN-with-text | **91.86** | **92.92** | **91.79** | **92.71** | 
- 
-[Download trained link prediction models "CiteExplainer-SeqAttention"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+| VGAE-w/o-text | 80.36 | 84.35 | 80.01 | 84.31 |
+| VGAE-with-text | 89.37 | 90.82 | 89.32 | 90.45 |
+| GCN-w/o-text | 84.65 | 87.07 | 85.72 | 88.63 |
+| GCN-with-text | **91.86** | **92.92** | **91.79** | **92.71** |
+
+[Download trained link prediction models "CiteExplainer-SeqAtten"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
-[Download trained text generation models "CiteExplainer-SeqAttention"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained text generation models "CiteExplainer-SeqAtten"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 #### Dataset 9: "CiteExplainer-CopyNet"
 
 Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8174613)
 
-[12] Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016. 
+[12] Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016.
 
 [Download data "CiteExplainer-CopyNet"](https://drive.google.com/file/d/1I720Kspz6KkrsOOtrHXabHioaECyBzDZ/view?usp=sharing)
 
@@ -326,18 +318,17 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 3 |   2651  | 27904 |  10.53 |      140     |      4826     |     98     |
+| 3 | 2651 | 27904 | 10.53 | 140 | 4826 | 98 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text|   82.27   |   83.92  |    81.81   |     83.88     |   
-| VGAE-with-text |    89.10  |     90.05    |    89.26   |    90.54      |   
-| GCN-w/o-text  |   84.99   |     86.03    |   84.62   |    86.25   |
-| GCN-with-text  |   **91.36**   |   **92.38**  |  **91.14**  |   **92.11**    |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 82.27 | 83.92 | 81.81 | 83.88 |
+| VGAE-with-text | 89.10 | 90.05 | 89.26 | 90.54 |
+| GCN-w/o-text | 84.99 | 86.03 | 84.62 | 86.25 |
+| GCN-with-text | **91.36** | **92.38** | **91.14** | **92.11** |
 
- 
 [Download trained link prediction models "CiteExplainer-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
@@ -346,11 +337,11 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8
 
 [Download trained text generation models "CiteExplainer-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-#### Dataset 10: "CiteExplainer-SeqAttention-CopyNet"
+#### Dataset 10: "CiteExplainer-SeqAtten-CopyNet"
 
-Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8174613)
+Center paper nodes: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 11212020) and [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8174613)
 
-[Download "CiteExplainer-node2vec-GCN"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
+[Download data "CiteExplainer-SeqAtten-CopyNet"](https://drive.google.com/file/d/1zcdnyZrfSqPSN2IPrsVbd2Jo3gRdxZmO/view?usp=sharing)
 
 - Statistics:
 
@@ -362,43 +353,41 @@ Center paper nodes:  [SeqAttention](https://arxiv.org/abs/1603.01360) [4] (S2ORC
 
 | | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
 |-|-|-|-|-|
-| VGAE-w/o-text |    82.27  |     83.92      |      81.81    |     83.88     |
-| VGAE-with-text |   89.10 |  90.52  |   89.26    |     90.55     | 
-| GCN-w/o-text |  84.99 |     86.03    |  84.62    |      86.25   |
-| GCN-with-text  |    **91.35**   |     **92.38**      |     **91.14**   | **92.11**        | 
+| VGAE-w/o-text | 82.27 | 83.92 | 81.81 | 83.88 |
+| VGAE-with-text | 89.10 | 90.52 | 89.26 | 90.55 |
+| GCN-w/o-text | 84.99 | 86.03 | 84.62 | 86.25 |
+| GCN-with-text  | **91.35** | **92.38** | **91.14** | **92.11** |
 
-
-[Download trained link prediction models "CiteExplainer-SeqAttention-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-SeqAtten-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
-[Download trained text generation models "CiteExplainer-SeqAttention-CopyNet""](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
+[Download trained text generation models "CiteExplainer-SeqAtten-CopyNet""](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 ### Theme D: Language model (3 datasets: Dataset 11-13)
 
 #### Dataset 11: "CiteExplainer-Transformer"
 
-Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (S2ORC ID: 13756489) 
+Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (S2ORC ID: 13756489)
 
-[Download "CiteExplainer-Transformer"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+[Download data "CiteExplainer-Transformer"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 
-- Staticstics: 
+- Staticstics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  1684   | 8725 |  5.18 |     149      |     4604      |     93     
+|-|-|-|-|-|-|-|
+| 3 | 1684 | 8725 | 5.18 | 149 | 4604 | 93 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text |   85.40   |    88.80   |    85.67   |    89.08      |   
-| VGAE-with-text | 88.59   |    90.64   |    87.46   |    90.46      |   
-| GCN-w/o-text   |   90.11   |    92.43     |   89.85   |   92.60    |
-| GCN-with-text  |   **90.76**   |  **92.50**   | **91.63**   |   **93.45**    |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 85.40 | 88.80 | 85.67 | 89.08 |
+| VGAE-with-text | 88.59 | 90.64 | 87.46 | 90.46 |
+| GCN-w/o-text | 90.11 | 92.43 | 89.85 | 92.60 |
+| GCN-with-text | **90.76** | **92.50** | **91.63** | **93.45** |
 
 [Download trained link prediction models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
@@ -408,30 +397,29 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
 #### Dataset 12: "CiteExplainer-CANLM"
 
 Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686481)
 
-[13] Kim, Jernite, Sontag, and Rush. “Character-Aware neural language models”. AAAI 2016.
+[13] Kim, Jernite, Sontag, and Rush. "Character-Aware neural language models." AAAI 2016.
 
-[Download "CiteExplainer-CANLM"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
+[Download data "CiteExplainer-CANLM"](https://drive.google.com/file/d/1dDwScfp0Lig3aop3EnicDzClJ8fSL4aG/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  6683   | 62812 | 9.40  |    146       |    4798       |     96      |
+|-|-|-|-|-|-|-|
+| 3 | 6683 | 62812 | 9.40 | 146 | 4798 | 96 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text |   83.04   |    85.79   |    82.95   |      85.55    |   
-| VGAE-with-text |   90.43   |     92.03  |    90.88   |      **92.48**    |  
-| GCN-w/o-text   |   84.91   |     87.24    |   85.13   |    87.25   |
-| GCN-with-text |    **91.85**  |   **93.29**  |  **92.02**  |   93.47    |   
- 
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 83.04 | 85.79 | 82.95 | 85.55 |
+| VGAE-with-text | 90.43 | 92.03 | 90.88 | 92.48 |
+| GCN-w/o-text | 84.91 | 87.24 | 85.13 | 87.25 |
+| GCN-with-text | **91.85** | **93.29** | **92.02** | **93.47** |
+
 [Download trained link prediction models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
@@ -441,25 +429,25 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 [Download trained text generation models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 #### Dataset 13: "CiteExplainer-Transformer-CANLM"
-Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (ID: 13756489) and [CANLM](https://arxiv.org/abs/1508.06615) [13] (ID: 686481)
 
-[Download "CiteExplainer-Transformer-CANLM"](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
+Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (ID: 13756489) and [CANLM](https://arxiv.org/abs/1508.06615) [13] (ID: 686481)
+
+[Download data "CiteExplainer-Transformer-CANLM"](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |   2039  | 11020 | 9.98  |     146      |     4535      |    94       |
+|-|-|-|-|-|-|-|
+| 2 | 2039 | 11020 | 9.98 | 146 | 4535 | 94 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text |  84.72    |   88.25    |    84.90   |    88.61      |   
-| VGAE-with-text |   89.07   |    91.86   |     89.99  |      92.26    |   
-| GCN-w/o-text   |   87.98   |     90.85    |  89.36    |  91.77     |
-| GCN-with-text |   **90.85**  |   **93.08**  |  **92.13**  |    **93.98**   |   
-
+| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 84.72 | 88.25 | 84.90 | 88.61 |
+| VGAE-with-text | 89.07 | 91.86 | 89.99 | 92.26 |
+| GCN-w/o-text | 87.98 | 90.85 | 89.36 | 91.77 |
+| GCN-with-text | **90.85** | **93.08** | **92.13** | **93.98** |
 
 [Download trained link prediction models "CiteExplainer-Transformer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
@@ -471,13 +459,19 @@ Center paper: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-yo
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
-#### Dataset 14: "CiteExplainer-GAN":
+
+
+
+
+
+
+#### Dataset 14: "CiteExplainer-GAN"
 
 Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503)
 
-[14] Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville, and Bengio. "Generative adversarial nets." NIPS 2014.
+[14] Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville, and Bengio. "Generative adversarial nets." NeurIPS 2014.
 
-[Download "CiteExplainer-GAN"](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing)
+[Download data "CiteExplainer-GAN"](https://drive.google.com/file/d/1qMCgQoRNjdO3l-UiwaGhpmO34iIhr0xO/view?usp=sharing)
 
 - Statistics:
 

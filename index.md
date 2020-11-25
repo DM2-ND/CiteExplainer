@@ -83,7 +83,7 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP(test) | F1 (test) |
+| | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP (test) | F1 (test) |
 |-|-|-|-|-|-|-|
 | VGAE-w/o-text | 87.94 | 84.59 | <span style="color:red">XX.XX</span> | 80.74 | 84.34 | <span style="color:red">XX.XX</span> |
 | VGAE-with-text | 90.93 | 92.42 | <span style="color:red">XX.XX</span> | 90.96 | 92.54 | <span style="color:red">XX.XX</span> |
@@ -112,7 +112,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 86.16 | 88.77 | 85.17 | 87.36 |
 | VGAE-with-text | **92.13** | **93.20** | **92.66** | **93.86** |
@@ -141,7 +141,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 87.03 | 89.78 | 87.15 | 89.87 |
 | VGAE-with-text | 93.47 | 94.81 | 93.47 | 94.83 |
@@ -169,7 +169,7 @@ Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 87.85 | 90.44 | 86.94 | 89.37 |
 | VGAE-with-text | 87.74 | 90.49 | 87.17 | 89.57 |
@@ -202,7 +202,7 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 77.52 | 81.42 | 77.83 | 81.63 |
 | VGAE-with-text | 91.13 | 92.39 | 90.78 | 92.02 |
@@ -233,7 +233,7 @@ Center paper node: [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID:
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 85.09 | 87.94 | 84.91 | 87.77 |
 | VGAE-with-text | 94.52 | 95.55 | 94.60 | 95.54 |
@@ -250,7 +250,7 @@ Center paper node: [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID:
 
 #### Dataset 7: "CiteExplainer-BiLSTMCRF-CNNBiLSTM"
 
-Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994) and [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
+Center paper nodes: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID: 6042994) and [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID: 10489017)
 
 [Download data "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](https://drive.google.com/file/d/1gFC_OWQ0yNTNakBlnujxgs8KAy-qpVqv/view?usp=sharing)
 
@@ -260,7 +260,7 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 81.42 | 83.94 | 82.28 | 84.79 |
 | VGAE-with-text | 91.68 | 92.73 | 91.87 | 92.95 |
@@ -291,7 +291,7 @@ Center paper node: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 1
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 80.36 | 84.35 | 80.01 | 84.31 |
 | VGAE-with-text | 89.37 | 90.82 | 89.32 | 90.45 |
@@ -322,7 +322,7 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 82.27 | 83.92 | 81.81 | 83.88 |
 | VGAE-with-text | 89.10 | 90.05 | 89.26 | 90.54 |
@@ -351,7 +351,7 @@ Center paper nodes: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 82.27 | 83.92 | 81.81 | 83.88 |
 | VGAE-with-text | 89.10 | 90.52 | 89.26 | 90.55 |
@@ -382,7 +382,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 85.40 | 88.80 | 85.67 | 89.08 |
 | VGAE-with-text | 88.59 | 90.64 | 87.46 | 90.46 |
@@ -413,7 +413,7 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 83.04 | 85.79 | 82.95 | 85.55 |
 | VGAE-with-text | 90.43 | 92.03 | 90.88 | 92.48 |
@@ -430,7 +430,7 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 
 #### Dataset 13: "CiteExplainer-Transformer-CANLM"
 
-Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (ID: 13756489) and [CANLM](https://arxiv.org/abs/1508.06615) [13] (ID: 686481)
+Center paper nodes: [Transformer](http://papers.nips.cc/paper/7181-attention-is-all-you-need) [6] (ID: 13756489) and [CANLM](https://arxiv.org/abs/1508.06615) [13] (ID: 686481)
 
 [Download data "CiteExplainer-Transformer-CANLM"](https://drive.google.com/file/d/182fp8NKaFqznKw4AmitSANvD5NmaHOix/view?usp=sharing)
 
@@ -442,7 +442,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP(test) |
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
 |-|-|-|-|-|
 | VGAE-w/o-text | 84.72 | 88.25 | 84.90 | 88.61 |
 | VGAE-with-text | 89.07 | 91.86 | 89.99 | 92.26 |
@@ -459,12 +459,6 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 ### Theme E: Generative model (3 datasets: Dataset 14-16)
 
-
-
-
-
-
-
 #### Dataset 14: "CiteExplainer-GAN"
 
 Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503)
@@ -476,92 +470,79 @@ Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |   10586  | 102380 | 9.67  |     170    |  5473  |     90   |
-
+|-|-|-|-|-|-|-|
+| 3 | 10586 | 102380 | 9.67 | 170 | 5473 | 90 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text|   86.88   |    89.56   |    86.19   |     89.05     |   
-| VGAE-with-text |   92.93   |    94.37   |     92.62  |     94.12     |   
-| GCN-w/o-text   |   89.71   |    91.59     |   88.94   |   91.05    |
-| GCN-with-text |   **94.51**   |   **95.63**  |  **94.55**  |    **95.57**   |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 86.88 | 89.56 | 86.19 | 89.05 |
+| VGAE-with-text | 92.93 | 94.37 | 92.62 | 94.12 |
+| GCN-w/o-text | 89.71 | 91.59 | 88.94 | 91.05 |
+| GCN-with-text | **94.51** | **95.63** | **94.55** | **95.57** |
 
+[Download trained link prediction models "CiteExplainer-GAN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
-[Download trained link prediction models “CiteExplainer-GAN”](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
 [Download trained text generation models "CiteExplainer-GAN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
-
-#### Dataset 15: "CiteExplainer-VAE":
+#### Dataset 15: "CiteExplainer-VAE"
 
 Center paper node: [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 15789289)
 
 [15] Kingma and Welling. "Auto-encoding variational bayes." ICLR 2014.
 
-[Download "CiteExplainer-VAE"](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing)
+[Download data "CiteExplainer-VAE"](https://drive.google.com/file/d/1hchidClLUVVvgWYRfuiNgzKd84YOBcjM/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |    2292 | 15267  |       13.38    |       160    |     5741  |  97 |
-
-
+|-|-|-|-|-|-|-|
+| 3 | 2292 | 15267  | 13.38 | 160 | 5741 | 97 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text|   81.43   |   85.75    |    81.80   |     86.24     |   
-| VGAE-with-text |   90.02   |    91.65   |   90.41    |      91.85    | 
-| GCN-w/o-text|   87.06   |     89.69    |   87.42   |  92.02     |
-| GCN-with-text |    **91.22**  |   **92.44**  |  **92.21**  |    **93.21**   |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 81.43 | 85.75 | 81.80 | 86.24 |
+| VGAE-with-text | 90.02 | 91.65 | 90.41 | 91.85 |
+| GCN-w/o-text | 87.06 | 89.69 | 87.42 | 92.02 |
+| GCN-with-text | **91.22** | **92.44** | **92.21** | **93.21** |
 
+[Download trained link prediction models "CiteExplainer-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-[Download trained link prediction models "CiteExplainer-VAE"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
 [Download trained text generation models "CiteExplainer-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+#### Dataset 16: "CiteExplainer-GAN-VAE"
 
+Center paper nodes: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503) and [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 15789289)
 
-#### Dataset 16: "CiteExplainer-GAN-VAE":
-
-Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial-nets) [14] (S2ORC ID: 12209503) [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 15789289)
-
-[Download "CiteExplainer-GAN-VAE"](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing)
+[Download data "CiteExplainer-GAN-VAE"](https://drive.google.com/file/d/1GgGfb8FPNBYHdl5PTfh1p8PV5G_RXORC/view?usp=sharing)
 
 - Statistics:
 
-
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |   2440  | 16399 | 13.40 |  160    |   5712     |  97        |
+|-|-|-|-|-|-|-|
+| 2 | 2440 | 16399 | 13.40 | 160 | 5712 | 97 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text|    81.43  |    87.66   |   85.24    |   88.23     |   
-| VGAE-with-text| 87.58    |   89.42   |   88.94    |  90.83     |   
-| GCN-w/o-text |    89.17  |     90.58    |     90.26 |   91.98    |
-| GCN-with-text |   **91.58**   |  **92.61**   |  **93.00**  |    **94.17**   |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 81.43 | 87.66 | 85.24 | 88.23 |
+| VGAE-with-text | 87.58 | 89.42 | 88.94 | 90.83 |
+| GCN-w/o-text | 89.17 | 90.58 | 90.26 | 91.98 |
+| GCN-with-text | **91.58** | **92.61** | **93.00** | **94.17** |
 
-
-
-[Download trained link prediction models "CiteExplainer-GAN-VAE"](xx)  <span style="color:red">[TODO: Insert a valid link.]
+[Download trained link prediction models "CiteExplainer-GAN-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
  
 - Results on citation contextual text generation:
 
@@ -569,108 +550,94 @@ Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial
 
 [Download trained text generation models "CiteExplainer-GAN-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
-
 ### Theme F: Deep RecSys (3 datasets: Dataset 17-19)
 
-#### Dataset 17: "CiteExplainer-NeuralCF":
+#### Dataset 17: "CiteExplainer-NeuralCF"
 
 Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106)
 
 [15] He, Liao, Zhang, Nie, Hu, and Chua. "Neural collaborative filtering." WWW 2017.
 
-[Download "CiteExplainer-NeuralCF"](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
+[Download data "CiteExplainer-NeuralCF"](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |   17554  | 150737 |  8.59 |    167       |       5123    |       87    |
+|-|-|-|-|-|-|-|
+| 3 | 17554 | 150737 | 8.59 | 167 | 5123 | 87 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text |   84.57  |  87.53  | 85.26 |    88.04   |   
-| VGAE-with-text | 91.26   |  88.71 |   90.81  | 89.82     |  
-| GCN-w/o-text   |    90.43   |   92.30    |  90.42   |     92.26      |
-| GCN-with-text | **95.48**    |    **96.28**   |    **95.34**   |     **96.27**      |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 84.57 | 87.53 | 85.26 | 88.04 |
+| VGAE-with-text | 91.26 | 88.71 | 90.81 | 89.82 |
+| GCN-w/o-text | 90.43 | 92.30 | 90.42 | 92.26 |
+| GCN-with-text | **95.48** | **96.28** | **95.34** | **96.27** |
 
+[Download trained link prediction models "CiteExplainer-NeuralCF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-[Download trained link prediction models "CiteExplainer-NeuralCF"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
 [Download trained text generation models "CiteExplainer-NeuralCF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-
-#### Dataset 18: "CiteExplainer-GCMC":
+#### Dataset 18: "CiteExplainer-GCMC"
 
 Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
 
-[16] Berg, Rianne van den, Thomas N. Kipf, and Max Welling. "Graph convolutional matrix completion." KDD 2018.
+[16] Berg, Kipf, and Welling. "Graph convolutional matrix completion." KDD 2018.
 
-[Download "CiteExplainer-GCMC"](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
+[Download data "CiteExplainer-GCMC"](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 3 |  4338   | 31991 | 7.37  |      151     |      4905     |      97  |
+|-|-|-|-|-|-|-|
+| 3 | 4338 | 31991 | 7.37 | 151 | 4905 | 97 |
 
 - Results on citation link prediction:
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text |    84.85  |    87.91   |    84.54   |      87.74    |   
-| VGAE-with-text |    91.26  |     92.73  |   90.20    |   91.82       | 
-| GCN-w/o-text  |   89.59   |    91.34     |    88.68  |   90.79    |
-| GCN-with-text |    94.13  |   95.26  |  94.07  |   95.29    |   
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 84.85 | 87.91 | 84.54 | 87.74 |
+| VGAE-with-text | 91.26 | 92.73 | 90.20 | 91.82 |
+| GCN-w/o-text | 89.59 | 91.34 | 88.68 | 90.79 |
+| GCN-with-text | **94.13** | **95.26** | **94.07** | **95.29** |
 
+[Download trained link prediction models "CiteExplainer-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
-[Download trained link prediction models "CiteExplainer-GCMC"](xx)  <span style="color:red">[TODO: Insert a valid link.]
- 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
 [Download trained text generation models "CiteExplainer-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+#### Dataset 19: "CiteExplainer-NeuralCF-GCMC"
 
-#### Dataset 19: "CiteExplainer-NeuralCF-GCMC":
+Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106) and [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
 
-Center paper nodes: Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106) and 
-Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
-
-[Download "CiteExplainer-NeuralCF-GCMC"](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing)
+[Download data "CiteExplainer-NeuralCF-GCMC"](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing)
 
 - Statistics:
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
-|---|-------|-------|-------|-----------|------------|------------|
-| 2 |   18045  | 157990 | 8.76  |    167       |     5152      |      87     |
-
+|-|-|-|-|-|-|-|
+| 2 | 18045 | 157990 | 8.76 | 167 | 5152 | 87 |
 
 - Results on citation link prediction:
+| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
+|-|-|-|-|-|
+| VGAE-w/o-text | 89.59 | 91.34 | 88.68 | 90.76 |
+| VGAE-with-text | **94.50** | **95.32** | **93.91** | **94.92** |   
+| GCN-w/o-text | 84.57 | 87.53 | 85.26 | 88.04 |   
+| GCN-with-text | 88.71 | 90.81 | 89.07 | 91.04 |   
 
-|              | AUC (valid) | AP (valid)| AUC (test)| AP(test)|
-|--------------|-----|-----------|----------|----------|
-| VGAE-w/o-text   |   89.59   |     91.34    |   88.68   |   90.76    |
-| VGAE-with-text |   94.50   |  95.32   |  93.91  |   94.92    |   
-| GCN-w/o-text |    84.57  |    87.53   |    85.26   |      88.04    |   
-| GCN-with-text  |    88.71  |   90.81    |    89.07   |    91.04      |   
-
-
-[Download trained link prediction models ""CiteExplainer-NeuralCF-GCMC""](xx)  <span style="color:red">[TODO: Insert a valid link.]
+[Download trained link prediction models "CiteExplainer-NeuralCF-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
  
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
 
-[Download trained text generation models ""CiteExplainer-NeuralCF-GCMC""](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
-
-
-
+[Download trained text generation models "CiteExplainer-NeuralCF-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>

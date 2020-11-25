@@ -274,7 +274,7 @@ Center paper:
 | GCN-with-text| **92.37** |     **93.45**     |    **92.60**     | **93.60**     | 
 
 
-[Download trained link prediction models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-BiLSTMCRF-CNNBiLSTM"](https://drive.google.com/drive/folders/1ZrB0NN09Ukd4uH5jakzpDTBB7UfWhFy2?usp=sharing)
 
 - Results on citation contextual text generation:
 

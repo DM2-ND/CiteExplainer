@@ -524,9 +524,7 @@ Center paper nodes: [GAN](http://papers.nips.cc/paper/5423-generative-adversaria
 
 #### Dataset 17: "CiteExplainer-NeuralCF"
 
-Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106)
-
-[15] He, Liao, Zhang, Nie, Hu, and Chua. "Neural collaborative filtering." WWW 2017.
+Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [16] (S2ORC ID: 13907106)
 
 [Download data "CiteExplainer-NeuralCF"](https://drive.google.com/file/d/1mwyOgh2Fp-owm5HdJTsPBJMqGtoEVS03/view?usp=sharing)
 
@@ -555,7 +553,7 @@ Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569
 
 #### Dataset 18: "CiteExplainer-GCMC"
 
-Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
+Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [17] (S2ORC ID: 36809545)
 
 [Download data "CiteExplainer-GCMC"](https://drive.google.com/file/d/1M26aD2Si_fTVmG__OgdyoqwvBqODqKKl/view?usp=sharing)
 
@@ -584,7 +582,7 @@ Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 3680
 
 #### Dataset 19: "CiteExplainer-NeuralCF-GCMC"
 
-Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [15] (S2ORC ID: 13907106) and [GCMC](https://arxiv.org/abs/1706.02263) [16] (S2ORC ID: 36809545)
+Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569) [16] (S2ORC ID: 13907106) and [GCMC](https://arxiv.org/abs/1706.02263) [17] (S2ORC ID: 36809545)
 
 [Download data "CiteExplainer-NeuralCF-GCMC"](https://drive.google.com/file/d/10_cyNo7l39Dkk1auZNOzNwkZz1Ef-AOR/view?usp=sharing)
 
@@ -637,10 +635,12 @@ Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.305256
 
 **[12]** Gu, Lu, Li, and Li. "Incorporating copying mechanism in sequence-to-sequence learning." ACL 2016.
 
-**[13]** Kim, Jernite, Sontag, and Rush. "Character-Aware neural language models." AAAI 2016.
+**[13]** Kim, Jernite, Sontag, and Rush. "Character-aware neural language models." AAAI 2016.
 
 **[14]** Goodfellow, Pouget-Abadie, Mirza, Xu, Warde-Farley, Ozair, Courville, and Bengio. "Generative adversarial nets." NeurIPS 2014.
 
 **[15]** Kingma and Welling. "Auto-encoding variational bayes." ICLR 2014.
 
-**[16]** Berg, Kipf, and Welling. "Graph convolutional matrix completion." KDD 2018.
+**[16]** He, Liao, Zhang, Nie, Hu, and Chua. "Neural collaborative filtering." WWW 2017.
+
+**[17]** Berg, Kipf, and Welling. "Graph convolutional matrix completion." KDD 2018.

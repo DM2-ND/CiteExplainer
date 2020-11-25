@@ -84,7 +84,7 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 - Results on citation link prediction:
 
 | | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP(test) | F1 (test) |
-|-|-|-|-|-|
+|-|-|-|-|-|-|-|
 | VGAE-w/o-text | 87.94 | 84.59 | <span style="color:red">XX.XX</span> | 80.74 | 84.34 | <span style="color:red">XX.XX</span> |
 | VGAE-with-text | 90.93 | 92.42 | <span style="color:red">XX.XX</span> | 90.96 | 92.54 | <span style="color:red">XX.XX</span> |
 | GCN-w/o-text | 86.01 | 89.46 | <span style="color:red">XX.XX</span> | 85.83 | 89.27 | <span style="color:red">XX.XX</span> |

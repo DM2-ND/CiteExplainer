@@ -90,7 +90,7 @@ Center paper node: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [9
 | GCN-w/o-text | 86.01 | 89.46 | 85.83 | 89.27 |
 | GCN-with-text | **94.22** | **95.30** | **94.19** | **95.14** |
 
-[Download trained link prediction models "CiteExplainer-node2vec"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-node2vec"](https://drive.google.com/drive/folders/1q0zInIh28wohhrmXpfrMhZaSDZfZDOEv?usp=sharing) 
 
 - Results on citation contextual text generation:
 

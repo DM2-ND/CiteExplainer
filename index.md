@@ -148,8 +148,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 | GCN-w/o-text | 91.19 | 92.61 | 90.99 | 92.55 |
 | GCN-with-text | **95.72** | **96.51** | **95.64** | **96.54** |
 
-[Download trained link prediction models "CiteExplainer-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
+[Download trained link prediction models "CiteExplainer-GCN"](https://drive.google.com/drive/folders/18G1vrdVknlQaxUQMitUcap47m5bj3cC3?usp=sharing) 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>

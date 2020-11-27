@@ -275,7 +275,7 @@ Center paper node: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 1
 | GCN-w/o-text | 84.65 | 87.07 | 85.72 | 88.63 |
 | GCN-with-text | **91.86** | **92.92** | **91.79** | **92.71** |
 
-[Download trained link prediction models "CiteExplainer-SeqAtten"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-SeqAtten"](https://drive.google.com/drive/folders/1vgM-rWnv9hZaCGxeEGPVQpZUIJ4Io12U?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -304,7 +304,7 @@ Center paper node: [CopyNet](https://arxiv.org/abs/1603.06393) [12] (S2ORC ID: 8
 | GCN-w/o-text | 84.99 | 86.03 | 84.62 | 86.25 |
 | GCN-with-text | **91.36** | **92.38** | **91.14** | **92.11** |
 
-[Download trained link prediction models "CiteExplainer-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-CopyNet"](https://drive.google.com/drive/folders/1eqrj8uOpEByxV9rdpa5bW3WJdonx7-SH?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -333,7 +333,7 @@ Center paper nodes: [SeqAtten](https://arxiv.org/abs/1603.01360) [4] (S2ORC ID: 
 | GCN-w/o-text | 84.99 | 86.03 | 84.62 | 86.25 |
 | GCN-with-text  | **91.35** | **92.38** | **91.14** | **92.11** |
 
-[Download trained link prediction models "CiteExplainer-SeqAtten-CopyNet"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-SeqAtten-CopyNet"](https://drive.google.com/drive/folders/1dfVPxyqsuK1dyK1LesR8UotReXFB0N4w?usp=sharing)
 
 - Results on citation contextual text generation:
 

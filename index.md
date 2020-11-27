@@ -101,7 +101,7 @@ Center paper node: [GCN](https://arxiv.org/abs/1609.02907) [2] (S2ORC ID: 314421
 | GCN-w/o-text | 90.52 | 92.43 | 90.91 | 91.40 |
 | GCN-with-text | 90.94 | 92.09 | 90.41 | 91.86 |
 
-[Download trained link prediction models "CiteExplainer-GCN-small"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-GCN-small"](https://drive.google.com/drive/folders/1ItIpdme3ZV1WNDfolR62iTSWhRaZ-2u3?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -158,7 +158,7 @@ Center paper nodes: [node2vec](https://dl.acm.org/doi/10.1145/2939672.2939754) [
 | GCN-w/o-text | 89.05 | 91.97 | 88.06 | 90.73 |
 | GCN-with-text | **91.03** | **92.68** | **90.44** | **92.32** |
 
-[Download trained link prediction models "CiteExplainer-node2vec-GCN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-node2vec-GCN"](https://drive.google.com/drive/folders/12akHk5p-P65idc2IqnTPXD_2Qf0zCMrv?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -189,8 +189,7 @@ Center paper node: [BiLSTMCRF](https://arxiv.org/abs/1603.01360) [10] (S2ORC ID:
 | GCN-w/o-text | 86.89 | 88.49 | 86.65 | 88.51 |
 | GCN-with-text | **92.39** | **93.39** | **92.12** | **93.22** |
 
-[Download trained link prediction models "CiteExplainer-BiLSTMCRF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
+[Download trained link prediction models "CiteExplainer-BiLSTMCRF"](https://drive.google.com/drive/folders/1HNGNyoMS3dpEyNmOejI4-SP1gi5cWvD4?usp=sharing)
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>

@@ -364,7 +364,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 | GCN-w/o-text | 90.11 | 92.43 | 89.85 | 92.60 |
 | GCN-with-text | **90.76** | **92.50** | **91.63** | **93.45** |
 
-[Download trained link prediction models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-Transformer"](https://drive.google.com/drive/folders/15q-7vN3IkkQou7RyxGckZZye6gZAa9Zc?usp=sharing)
 
 - Results on citation contextual text generation:
 

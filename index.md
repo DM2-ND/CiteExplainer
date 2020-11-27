@@ -393,7 +393,7 @@ Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686
 | GCN-w/o-text | 84.91 | 87.24 | 85.13 | 87.25 |
 | GCN-with-text | **91.85** | **93.29** | **92.02** | **93.47** |
 
-[Download trained link prediction models "CiteExplainer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-CANLM"](https://drive.google.com/drive/folders/1UKQ3SN_OuuvsaS0k2pkB7xBGZHzYv_bV?usp=sharing) 
 
 - Results on citation contextual text generation:
 
@@ -422,7 +422,7 @@ Center paper nodes: [Transformer](http://papers.nips.cc/paper/7181-attention-is-
 | GCN-w/o-text | 87.98 | 90.85 | 89.36 | 91.77 |
 | GCN-with-text | **90.85** | **93.08** | **92.13** | **93.98** |
 
-[Download trained link prediction models "CiteExplainer-Transformer-CANLM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-Transformer-CANLM"](https://drive.google.com/drive/folders/1xqPBYBOhABAmASNvQMKxrE_tNSHhK9V2?usp=sharing) <span style="color:red">[TODO: Insert a valid link.]</span>
 
 - Results on citation contextual text generation:
 

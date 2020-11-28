@@ -612,7 +612,7 @@ Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.305256
 
 **[1]** Kipf and Welling. "Variational graph auto-encoders." NeurIPS 2016 Bayesian Deep Learning Workshop.
 
-**[2]** Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICML 2017.
+**[2]** Kipf and Welling. "Semi-supervised classification with graph convolutional networks." ICLR 2017.
 
 **[3]** Sutskever, Vinyals, and Le. "Sequence to sequence learning with neural networks." NeurIPS 2014.
 

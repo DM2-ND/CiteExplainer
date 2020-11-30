@@ -217,7 +217,7 @@ Center paper node: [CNNBiLSTM](https://arxiv.org/abs/1603.01354) [11] (S2ORC ID:
 | GCN-w/o-text | 88.44 | 90.66 |88.55 | 90.66 |
 | GCN-with-text | **95.47** | **96.31** | **95.38** | **96.21** |
 
-[Download trained link prediction models "CiteExplainer-CNNBiLSTM"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-CNNBiLSTM"](https://drive.google.com/drive/folders/1DYhkWvrEABHtp5EQXQNoWeiEbdsgosK7?usp=sharing) 
 
 - Results on citation contextual text generation:
 
@@ -422,7 +422,7 @@ Center paper nodes: [Transformer](http://papers.nips.cc/paper/7181-attention-is-
 | GCN-w/o-text | 87.98 | 90.85 | 89.36 | 91.77 |
 | GCN-with-text | **90.85** | **93.08** | **92.13** | **93.98** |
 
-[Download trained link prediction models "CiteExplainer-Transformer-CANLM"](https://drive.google.com/drive/folders/1xqPBYBOhABAmASNvQMKxrE_tNSHhK9V2?usp=sharing) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-Transformer-CANLM"](https://drive.google.com/drive/folders/1xqPBYBOhABAmASNvQMKxrE_tNSHhK9V2?usp=sharing) 
 
 - Results on citation contextual text generation:
 
@@ -453,8 +453,7 @@ Center paper node: [GAN](http://papers.nips.cc/paper/5423-generative-adversarial
 | GCN-w/o-text | 89.71 | 91.59 | 88.94 | 91.05 |
 | GCN-with-text | **94.51** | **95.63** | **94.55** | **95.57** |
 
-[Download trained link prediction models "CiteExplainer-GAN"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
-
+[Download trained link prediction models "CiteExplainer-GAN"](https://drive.google.com/drive/folders/1sqH71pcZveJB7s2kPMlgrfl2MSjCOOl8?usp=sharing) 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>
@@ -482,7 +481,7 @@ Center paper node: [VAE](https://arxiv.org/abs/1312.6114) [15] (S2ORC ID: 157892
 | GCN-w/o-text | 87.06 | 89.69 | 87.42 | 92.02 |
 | GCN-with-text | **91.22** | **92.44** | **92.21** | **93.21** |
 
-[Download trained link prediction models "CiteExplainer-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-VAE"](https://drive.google.com/drive/folders/1e4llTWv28nn277JgCsxVh1_psMhIVaFN?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -511,7 +510,7 @@ Center paper nodes: [GAN](http://papers.nips.cc/paper/5423-generative-adversaria
 | GCN-w/o-text | 89.17 | 90.58 | 90.26 | 91.98 |
 | GCN-with-text | **91.58** | **92.61** | **93.00** | **94.17** |
 
-[Download trained link prediction models "CiteExplainer-GAN-VAE"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-GAN-VAE"](https://drive.google.com/drive/folders/1RJlVr6hN5Jq1jCNvJIcNidAmLs67yfMA?usp=sharing)
  
 - Results on citation contextual text generation:
 
@@ -542,7 +541,7 @@ Center paper node: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.3052569
 | GCN-w/o-text | 90.43 | 92.30 | 90.42 | 92.26 |
 | GCN-with-text | **95.48** | **96.28** | **95.34** | **96.27** |
 
-[Download trained link prediction models "CiteExplainer-NeuralCF"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-NeuralCF"](https://drive.google.com/drive/folders/1hc079rrcM59p0tAW4BC43LlrWTi7wY6J?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -571,7 +570,7 @@ Center paper node: [GCMC](https://arxiv.org/abs/1706.02263) [17] (S2ORC ID: 3680
 | GCN-w/o-text | 89.59 | 91.34 | 88.68 | 90.79 |
 | GCN-with-text | **94.13** | **95.26** | **94.07** | **95.29** |
 
-[Download trained link prediction models "CiteExplainer-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
+[Download trained link prediction models "CiteExplainer-GCMC"](https://drive.google.com/drive/folders/1axogS9QQL_gaUDcz85S1UNxdYh1U5edM?usp=sharing)
 
 - Results on citation contextual text generation:
 
@@ -600,8 +599,7 @@ Center paper nodes: [NeuralCF](https://dl.acm.org/doi/abs/10.1145/3038912.305256
 | GCN-w/o-text | 84.57 | 87.53 | 85.26 | 88.04 |   
 | GCN-with-text | 88.71 | 90.81 | 89.07 | 91.04 |   
 
-[Download trained link prediction models "CiteExplainer-NeuralCF-GCMC"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
- 
+[Download trained link prediction models "CiteExplainer-NeuralCF-GCMC"](https://drive.google.com/drive/folders/1-qbGPLhiqnnAEb4euOtX1calYpJXKAMF?usp=sharing) 
 - Results on citation contextual text generation:
 
 <span style="color:red">[TODO: Insert a table.]</span>

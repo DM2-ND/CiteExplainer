@@ -357,12 +357,12 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 - Results on citation link prediction:
 
-| | AUC (valid) | AP (valid) | AUC (test) | AP (test) |
-|-|-|-|-|-|
-| VGAE-w/o-text | 85.40 | 88.80 | 85.67 | 89.08 |
-| VGAE-with-text | 88.59 | 90.64 | 87.46 | 90.46 |
-| GCN-w/o-text | 90.11 | 92.43 | 89.85 | 92.60 |
-| GCN-with-text | **90.76** | **92.50** | **91.63** | **93.45** |
+|  | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP (test) | F1 (test) |
+|-|-|-|-|-|-|-|
+| VGAE-w/o-text | 84.70 | 87.71 |  | 84.30 | 87.45 | 77.19 |
+| VGAE-with-text | 94.37 | 95.27 | 88.87 | 94.20 | 95.21 | 88.51 |
+| GCN-w/o-text | 87.52 | 89.43 |  | 87.31 | 89.28 | 80.35 |
+| GCN-with-text | **95.58** | **96.29** | **90.67** | **95.48** | **96.26** | **90.48 **|
 
 [Download trained link prediction models "CiteExplainer-Transformer"](https://drive.google.com/drive/folders/15q-7vN3IkkQou7RyxGckZZye6gZAa9Zc?usp=sharing)
 

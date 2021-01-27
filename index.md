@@ -362,7 +362,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 | VGAE-w/o-text | 84.70 | 87.71 | 77.84 | 84.30 | 87.45 | 77.19 |
 | VGAE-with-text | 94.37 | 95.27 | 88.87 | 94.20 | 95.21 | 88.51 |
 | GCN-w/o-text | 87.52 | 89.43 | 80.66 | 87.31 | 89.28 | 80.35 |
-| GCN-with-text | **95.58** | **96.29** | **90.67** | **95.48** | **96.26** | **90.48 **|
+| GCN-with-text | **95.58** | **96.29** | **90.67** | **95.48** | **96.26** | **90.48**|
 
 [Download trained link prediction models "CiteExplainer-Transformer"](https://drive.google.com/drive/folders/15q-7vN3IkkQou7RyxGckZZye6gZAa9Zc?usp=sharing)
 

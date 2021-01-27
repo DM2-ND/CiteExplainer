@@ -375,6 +375,21 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
+- Citation text generation cases:
+
+**Case 1**:
+
+Citing Paper: Detecting Adversarial Samples Using Influence Functions and Nearest Neighbors (S2ORC ID: 202577488)
+Cited Paper: Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation (S2ORC ID: 10490694)
+
+Ground truth:
+Some works provided guarantees to certify robustness of the network . [MASKB] formalized a formal upper bound for the noise required to flip a network prediction , while Sinha et al . [MASK] provided an efficient and fast guarantee of robustness for the worst-case population performance , with high probability.
+
+BART:
+Some works provided guarantees to certify robustness of the network . [MASKB] formalized a formal upper bound for the noise required to flip a network prediction , while Sinha et al . [MASK] provided an efficient and fast guarantee of robustness for the worst-case population performance , with high probability.
+
+T5:
+In [MASKB], the authors propose a cross-lipschitz regularization function, which is used to improve the robustness of a neural network classifier.
 #### Dataset 12: "CiteExplainer-CANLM"
 
 Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686481)

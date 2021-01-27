@@ -395,6 +395,24 @@ In [MASKB], the authors use a weight-normalization method to reduce the number o
 In addition, we also consider weight-normalization [MASKB], which is a method to decouple the weights'norm from the optimized objective, as well as its output.
 
 
+**Case 2**:
+
+Citing Paper: Tartan: A retrieval-based socialbot powered by a dynamic finite-state machine architecture (S2ORC ID: 54444997)
+Cited Paper: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset (S2ORC ID: 11267601)
+
+**Ground truth**:
+
+To do this , we used the Daily Dialogue dataset [MASKB] .
+
+**BART**:
+
+We use the DailyDialog dataset [MASKB], which contains conversations about daily life.
+
+**T5**:
+
+Besides, Tartan is a conversational agent built for the Alexa Prize Competition [MASK], which aims at providing users with an engaging and fluent casual conversation. [MASKB] develops a high-quality multi-turn dialog dataset called Dailydialog, that contains conversations about our daily life.
+
+
 #### Dataset 12: "CiteExplainer-CANLM"
 
 Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686481)

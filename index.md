@@ -380,6 +380,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 **Case 1**:
 
 Citing Paper: Iterative Normalization: Beyond Standardization towards Efficient Whitening (S2ORC ID: 102352921)
+
 Cited Paper: Norm matters: efficient and accurate normalization schemes in deep networks (S2ORC ID: 3813742)
 
 **Ground truth**:
@@ -398,6 +399,7 @@ In addition, we also consider weight-normalization [MASKB], which is a method to
 **Case 2**:
 
 Citing Paper: Tartan: A retrieval-based socialbot powered by a dynamic finite-state machine architecture (S2ORC ID: 54444997)
+
 Cited Paper: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset (S2ORC ID: 11267601)
 
 **Ground truth**:

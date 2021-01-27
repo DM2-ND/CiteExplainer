@@ -379,20 +379,22 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 **Case 1**:
 
-Citing Paper: Detecting Adversarial Samples Using Influence Functions and Nearest Neighbors (S2ORC ID: 202577488)
-Cited Paper: Formal Guarantees on the Robustness of a Classifier against Adversarial Manipulation (S2ORC ID: 10490694)
+Citing Paper: Iterative Normalization: Beyond Standardization towards Efficient Whitening (S2ORC ID: 102352921)
+Cited Paper: Norm matters: efficient and accurate normalization schemes in deep networks (S2ORC ID: 3813742)
 
 **Ground truth**:
 
-Some works provided guarantees to certify robustness of the network . [MASKB] formalized a formal upper bound for the noise required to flip a network prediction , while Sinha et al . [MASK] provided an efficient and fast guarantee of robustness for the worst-case population performance , with high probability.
+Multiple standardization options have been discovered for normalizing mini-batch data , including the L2 standardization [MASK] , the L1-standardization [MULTIMASK] and the L∞-standardization [MASKB] .
 
 **BART**:
 
-In this paper, we focus on detecting adversarial attacks for any pre-trained neural network classifier [MULTIMASKB].
+In [MASKB], the authors use a weight-normalization method to reduce the number of parameters.
 
 **T5**:
 
-In [MASKB], the authors propose a cross-lipschitz regularization function, which is used to improve the robustness of a neural network classifier.
+In addition, we also consider weight-normalization [MASKB], which is a method to decouple the weights'norm from the optimized objective, as well as its output.
+
+
 #### Dataset 12: "CiteExplainer-CANLM"
 
 Center paper node: [CANLM](https://arxiv.org/abs/1508.06615) [13] (S2ORC ID: 686481)

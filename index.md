@@ -359,10 +359,10 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 |  | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP (test) | F1 (test) |
 |-|-|-|-|-|-|-|
-| VGAE-w/o-text | 84.70 | 87.71 | 77.84 | 84.30 | 87.45 | 77.19 |
-| VGAE-with-text | 94.37 | 95.27 | 88.87 | 94.20 | 95.21 | 88.51 |
-| GCN-w/o-text | 87.52 | 89.43 | 80.66 | 87.31 | 89.28 | 80.35 |
-| GCN-with-text | **95.58** | **96.29** | **90.67** | **95.48** | **96.26** | **90.48**|
+| VGAE-w/o-text | |  |  |  | |  |
+| VGAE-with-text |  | | | | |  |
+| GCN-w/o-text |  |  |  |  |  |  |
+| GCN-with-text | **95.26** | **96.06** | **90.15** | **95.43** | **96.25** | **90.36**|
 
 [Download trained link prediction models "CiteExplainer-Transformer"](https://drive.google.com/drive/folders/15q-7vN3IkkQou7RyxGckZZye6gZAa9Zc?usp=sharing)
 
@@ -396,24 +396,40 @@ Recent work has shown that RNN language models are able to generalize long-dista
 In the literature, there has been a recent surge of interest in RNN language models, e.g., [MASK] ; [MASKB] ).
 
 
+**BART with graph features**:
+
+TODO TODO TODO TODO TODO TODO
+
+**T5 with graph features**:
+
+TODO TODO TODO TODO TODO TODO
+
+
 **Case 2**:
 
-Citing Paper: Tartan: A retrieval-based socialbot powered by a dynamic finite-state machine architecture (S2ORC ID: 54444997)
+Citing Paper: Learning from Web Data with Memory Module (S2ORC ID: 202540228)
 
-Cited Paper: DailyDialog: A Manually Labelled Multi-turn Dialogue Dataset (S2ORC ID: 11267601)
+Cited Paper: Learning from Web Data: the Benefit of Unsupervised Object Localization (S2ORC ID: 56657899)
 
 **Ground truth**:
 
-To do this , we used the Daily Dialogue dataset [MASKB] .
+[MASKB] utilized weakly supervised region proposal network to distill clean region proposals from web images , but this approach requires extra clean images in the training stage.
 
 **BART**:
 
-We use the DailyDialog dataset [MASKB], which contains conversations about daily life.
+Recently, a number of methods have been proposed to reduce the gap between the web and standard datasets [MULTIMASKB].
 
 **T5**:
 
-Besides, Tartan is a conversational agent built for the Alexa Prize Competition [MASK], which aims at providing users with an engaging and fluent casual conversation. [MASKB] develops a high-quality multi-turn dialog dataset called Dailydialog, that contains conversations about our daily life.
+For example, the Web Indoor ( WI- # ) scene image dataset [MASKB], which contains a large number of web images, has attracted lots of research interest in the past few years [MULTIMASKB].
 
+**BART with graph features**:
+
+TODO TODO TODO TODO TODO TODO
+
+**T5 with graph features**:
+
+TODO TODO TODO TODO TODO TODO
 
 #### Dataset 12: "CiteExplainer-CANLM"
 

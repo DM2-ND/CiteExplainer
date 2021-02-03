@@ -368,10 +368,10 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 - Results on citation contextual text generation:
 
-|  | TextLen (valid) | BLEU (valid) | ROUGE-2 (valid) | ROUGE-L (valid) | TextLen (test) | BLEU (test) | ROUGE-2 (test) | ROUGE-L (test) |
+|  | BLEU-3 (valid) | BLEU-4 (valid) | ROUGE-2 (valid) | ROUGE-L (valid) | BLEU-3 (test) | BLEU-4 (test) | ROUGE-2 (test) | ROUGE-L (test) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| BART | 35.2 | 4.96 | 2.99 | 14.20 | 35.8 | 4.93 | 3.05 | 14.02 |
-| T5 | 51.6 | 4.64 | 3.16 | 13.99 | 51.7 | 5.00 | 3.21 | 14.15 |
+| BART |  | 4.96 | 2.99 | 14.20 |  | 4.93 | 3.05 | 14.02 |
+| T5 |  | 4.64 | 3.16 | 13.99 | | 5.00 | 3.21 | 14.15 |
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 
@@ -379,21 +379,21 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 **Case 1**:
 
-Citing Paper: Iterative Normalization: Beyond Standardization towards Efficient Whitening (S2ORC ID: 102352921)
+Citing Paper: What do RNN Language Models Learn about Filler-Gap Dependencies? (S2ORC ID: 52156878)
 
-Cited Paper: Norm matters: efficient and accurate normalization schemes in deep networks (S2ORC ID: 3813742)
+Cited Paper: RNN Simulations of Grammaticality Judgments on Long-distance Dependencies (S2ORC ID: 52010508)
 
 **Ground truth**:
 
-Multiple standardization options have been discovered for normalizing mini-batch data , including the L2 standardization [MASK] , the L1-standardization [MULTIMASK] and the L∞-standardization [MASKB] .
+While [MASKB] conclude that the networks are not learning island-like constraints , but rather displaying sensitivity to syntactic complexity plus order , we demonstrate island-like effects where both the island and the non-isl
 
 **BART**:
 
-In [MASKB], the authors use a weight-normalization method to reduce the number of parameters.
+Recent work has shown that RNN language models are able to generalize long-distance dependencies and generalize about empty syntactic positions [MULTIMASKB].
 
 **T5**:
 
-In addition, we also consider weight-normalization [MASKB], which is a method to decouple the weights'norm from the optimized objective, as well as its output.
+In the literature, there has been a recent surge of interest in RNN language models, e.g., [MASK] ; [MASKB] ).
 
 
 **Case 2**:

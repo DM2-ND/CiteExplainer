@@ -353,7 +353,7 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 | k | \|V\| | \|E\| | d<sub>avg</sub> | w<sub>abst</sub> | w<sub>body</sub> | w<sub>cite</sub> |
 |-|-|-|-|-|-|-|
-| 3 | 1684 | 8725 | 5.18 | 149 | 4604 | 93 |
+| 3 | 19543 | 230361 |11.8 | 149 | 4604 | 32 |
 
 - Results on citation link prediction:
 

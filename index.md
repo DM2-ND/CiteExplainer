@@ -369,10 +369,11 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 - Results on citation contextual text generation:
 
 |  | BLEU-3 (valid) | BLEU-4 (valid) | ROUGE-2 (valid) | ROUGE-L (valid) | BLEU-3 (test) | BLEU-4 (test) | ROUGE-2 (test) | ROUGE-L (test) |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| BART |  | 4.96 | 2.99 | 14.20 | 1.88 | 1.00 | | 9.62 |
-| T5 |  | 4.64 | 3.16 | 13.99 | | 5.00 | 3.21 | 14.15 |
-| T5 |  | 4.64 | 3.16 | 13.99 | | 5.00 | 3.21 | 14.15 |
+|-|-|-|-|-|-|-|-|-|
+| BART | 8.02 | 6.47 |  | 18.36 | 1.93 | 2.04 |  | 9.51 |
+| T5 | 3.43 | 1.84 |  | 16.01 | 2.45 | 1.40 |  | 10.27 |
+| BART-graph | 7.86 | 6.30 |  | 18.26 | 1.87 | 1.00 |  | 9.63 |
+| T5-graph | 3.37 | 1.80 |  | 16.10 | 2.34 | 1.29 |  | 10.19 |
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 

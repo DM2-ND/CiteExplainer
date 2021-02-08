@@ -400,11 +400,11 @@ In the literature, there has been a recent surge of interest in RNN language mod
 
 **BART with graph features**:
 
-TODO TODO TODO TODO TODO TODO
+In this paper, we focus on two types of RNNs : ( 1 ) RNN-based models that represent long-distance filler-gap dependencies, and ( 2 ) LSTM-based ones that represent the long-range fillergap dependencies and constraints on them, such as filler- Gap dependencies, or constraints on their constraints [MULTIMASKB].
 
 **T5 with graph features**:
 
-TODO TODO TODO TODO TODO TODO
+Several studies have shown that RNNs learn a subset of the known restrictions on filler-gap dependencies, known as island constraints, and are able to generalize about empty syntactic positions [MULTIMASKB].
 
 
 **Case 2**:
@@ -427,11 +427,11 @@ For example, the Web Indoor ( WI- # ) scene image dataset [MASKB], which contain
 
 **BART with graph features**:
 
-TODO TODO TODO TODO TODO TODO
+In [MASKB], the authors propose a method to select the regions containing objects that are consistent with the label.
 
 **T5 with graph features**:
 
-TODO TODO TODO TODO TODO TODO
+For example, in [MASKB], the authors propose an unsupervised object localization method to control the scale, localization and number of objects in the detected region.
 
 #### Dataset 12: "CiteExplainer-CANLM"
 

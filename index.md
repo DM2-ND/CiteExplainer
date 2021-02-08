@@ -370,10 +370,10 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 |  | BLEU-3 (valid) | BLEU-4 (valid) | ROUGE-2 (valid) | ROUGE-L (valid) | BLEU-3 (test) | BLEU-4 (test) | ROUGE-2 (test) | ROUGE-L (test) |
 |-|-|-|-|-|-|-|-|-|
-| BART | 8.02 | 6.47 | 5.88 | 18.36 | 1.93 | 2.04 | 1.66 | 9.51 |
-| T5 | 3.43 | 1.84 | 2.73 | 16.01 | 2.45 | 1.40 | 2.02 | 10.27 |
-| BART-graph | 7.86 | 6.30 | 5.23 | 18.26 | 1.87 | 1.00 | 1.92 | 9.63 |
-| T5-graph | 3.37 | 1.80 | 2.72 | 16.10 | 2.34 | 1.29 | 2.00 | 10.19 |
+| BART | **8.02** | **6.47** | **5.88** | **18.36** | 1.93 | **2.04** | 1.66 | 9.51 |
+| BART-with-graph | 7.86 | 6.30 | 5.23 | 18.26 | 1.87 | 1.00 | 1.92 | 9.63 |
+| T5 | 3.43 | 1.84 | 2.73 | 16.01 | **2.45** | 1.40 | **2.02** | **10.27** |
+| T5-with-graph | 3.37 | 1.80 | 2.72 | 16.10 | 2.34 | 1.29 | 2.00 | 10.19 |
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
 

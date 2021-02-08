@@ -359,9 +359,9 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 |  | AUC (valid) | AP (valid) | F1 (valid) | AUC (test) | AP (test) | F1 (test) |
 |-|-|-|-|-|-|-|
-| VGAE-w/o-text | |  |  |  | |  |
-| VGAE-with-text |  | | | | |  |
-| GCN-w/o-text |  |  |  |  |  |  |
+| VGAE-w/o-text | 85.14| 87.70 | 76.95 | 85.00 |87.65 | 76.98 |
+| VGAE-with-text | 94.45 | 95.40|88.79 | 94.38|95.47 |  88.87|
+| GCN-w/o-text | 86.26 | 89.04 | 79.84 | 86.18 | 88.87 | 79.76 |
 | GCN-with-text | **95.26** | **96.06** | **90.15** | **95.43** | **96.25** | **90.36**|
 
 [Download trained link prediction models "CiteExplainer-Transformer"](https://drive.google.com/drive/folders/15q-7vN3IkkQou7RyxGckZZye6gZAa9Zc?usp=sharing)

@@ -370,7 +370,8 @@ Center paper node: [Transformer](http://papers.nips.cc/paper/7181-attention-is-a
 
 |  | BLEU-3 (valid) | BLEU-4 (valid) | ROUGE-2 (valid) | ROUGE-L (valid) | BLEU-3 (test) | BLEU-4 (test) | ROUGE-2 (test) | ROUGE-L (test) |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| BART |  | 4.96 | 2.99 | 14.20 |  | 4.93 | 3.05 | 14.02 |
+| BART |  | 4.96 | 2.99 | 14.20 | 1.88 | 1.00 | | 9.62 |
+| T5 |  | 4.64 | 3.16 | 13.99 | | 5.00 | 3.21 | 14.15 |
 | T5 |  | 4.64 | 3.16 | 13.99 | | 5.00 | 3.21 | 14.15 |
 
 [Download trained text generation models "CiteExplainer-Transformer"](#) <span style="color:red">[TODO: Insert a valid link.]</span>
